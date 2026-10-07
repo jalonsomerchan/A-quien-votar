@@ -1,0 +1,14 @@
+{
+  "editions": [
+    {
+      "year": 2025,
+      "label": "Extremadura · 2025",
+      "file": "/data/preguntas-extremadura-2025.json"
+    },
+    {
+      "year": 2023,
+      "label": "Generales · 2023",
+      "file": "/data/preguntas-2023.json"
+    }
+  ]
+}

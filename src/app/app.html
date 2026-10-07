@@ -1,0 +1,366 @@
+<div class="app-shell design-shell" [attr.data-screen]="screen()">
+  @if (loading()) {
+    <main class="design-state" aria-live="polite">
+      <span class="loading-dot"></span>
+      <p>Preparando los programas electorales…</p>
+    </main>
+  } @else if (loadError()) {
+    <main class="design-state design-error" role="alert">
+      <p class="design-kicker">NO SE HAN PODIDO CARGAR LOS DATOS</p>
+      <h1>Prueba de nuevo en un momento.</h1>
+      <p>Las preguntas y los programas se cargan desde los archivos de esta web.</p>
+      <button class="design-primary-action" type="button" (click)="retry()">Reintentar</button>
+    </main>
+  } @else {
+    <header class="design-header">
+      <div class="design-brand-block">
+        <a class="design-wordmark" href="#inicio" (click)="$event.preventDefault(); restart()" aria-label="Ir al inicio">
+          <span>¿a quién</span>
+          <span>votar?</span>
+        </a>
+        <span class="design-edition-label">{{ selectedEdition()?.label ?? 'COMPARA PROPUESTAS ELECTORALES' }}</span>
+      </div>
+
+      @if (screen() === 'quiz' || screen() === 'elections' || screen() === 'parties' || screen() === 'test-type' || screen() === 'results') {
+        <div class="design-progress-block">
+          @if (screen() === 'quiz') {
+            <span class="design-progress-count"><strong>{{ (currentIndex() + 1).toString().padStart(2, '0') }}</strong><i>/ {{ questions().length.toString().padStart(2, '0') }}</i></span>
+            <div class="design-progress-track" role="progressbar" [attr.aria-valuenow]="progress()" aria-valuemin="0" aria-valuemax="100" [attr.aria-label]="'Progreso: ' + progress() + ' por ciento'"><span [style.width.%]="progress()"></span></div>
+          } @else if (screen() === 'elections') {
+            <span class="design-progress-count"><strong>01</strong><i>/ 03</i></span>
+            <div class="design-progress-track" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" aria-label="Paso 1 de 3"><span style="width: 33%"></span></div>
+          } @else if (screen() === 'parties') {
+            <span class="design-progress-count"><strong>02</strong><i>/ 03</i></span>
+            <div class="design-progress-track" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" aria-label="Paso 2 de 3"><span style="width: 67%"></span></div>
+          } @else if (screen() === 'test-type') {
+            <span class="design-progress-count"><strong>03</strong><i>/ 03</i></span>
+            <div class="design-progress-track" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="Paso 2 de 2"><span style="width: 100%"></span></div>
+          } @else {
+            <span class="design-results-count">{{ answeredCount() }} {{ answeredCount() === 1 ? 'respuesta' : 'respuestas' }}</span>
+          }
+        </div>
+      }
+    </header>
+
+    <main class="design-main">
+      @if (screen() === 'home') {
+        <section class="design-screen design-choice-screen design-home-screen" id="inicio" aria-labelledby="home-title">
+          <div class="design-intro">
+            <h1 id="home-title">Tu voto merece<br /><em>una decisión propia.</em></h1>
+            <p>Compara lo que piensas con las propuestas de los programas electorales. Sin respuestas correctas y con las fuentes a la vista.</p>
+          </div>
+
+          <nav class="design-home-actions" aria-label="Explora la herramienta">
+            <button class="design-choice-button design-choice-current" type="button" (click)="showElections()">
+              <span><strong>Empezar test</strong><small>Elige unas elecciones y compara propuestas.</small></span>
+              <span class="design-choice-mark" aria-hidden="true">→</span>
+            </button>
+            <button class="design-home-link" type="button" (click)="showHowItWorks()"><span>Cómo funciona</span><span aria-hidden="true">↗</span></button>
+            <button class="design-home-link" type="button" (click)="showMoreInfo()"><span>Más información</span><span aria-hidden="true">↗</span></button>
+          </nav>
+        </section>
+      } @else if (screen() === 'how-it-works') {
+        <section class="design-screen design-info-screen" aria-labelledby="how-title">
+          <div class="design-info-scroll">
+            <button class="design-text-back" type="button" (click)="showHome()">← Volver al inicio</button>
+            <p class="design-kicker">LA HERRAMIENTA, PASO A PASO</p>
+            <h1 id="how-title">Cómo funciona</h1>
+            <p class="design-info-lead">Una comparación orientativa entre tus respuestas y las posiciones que aparecen en los programas electorales.</p>
+
+            <div class="design-info-steps">
+              <article class="design-info-step"><span>01</span><div><h2>Elige unas elecciones</h2><p>Selecciona la convocatoria disponible. Cada edición compara las propuestas de los partidos que incluye ese conjunto de datos.</p></div></article>
+              <article class="design-info-step"><span>02</span><div><h2>Escoge la duración</h2><p>El test rápido reúne una selección de temas; el normal añade preguntas y el extenso incluye todas las disponibles.</p></div></article>
+              <article class="design-info-step"><span>03</span><div><h2>Responde según tus ideas</h2><p>Marca «Sí» o «No» según tu opinión. Puedes pasar una pregunta: se excluirá de la puntuación. No hay respuestas correctas.</p></div></article>
+              <article class="design-info-step"><span>04</span><div><h2>Revisa la comparación</h2><p>Verás qué partidos coinciden más con tus respuestas en los temas comparables. Puedes abrir las fuentes junto a cada pregunta y en el resultado.</p></div></article>
+            </div>
+
+            <aside class="design-info-callout"><strong>¿Cómo se calcula?</strong><p>Cada coincidencia suma 1 punto y cada diferencia resta 1. El saldo se transforma a una escala de 0 a 10: 0 indica que todas las respuestas comparables difieren y 10 que todas coinciden. Solo cuentan las preguntas respondidas con una postura identificada del partido; las preguntas pasadas y los temas sin postura se ignoran.</p></aside>
+            <button class="design-primary-action" type="button" (click)="showElections()">Empezar test <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+      } @else if (screen() === 'more-info') {
+        <section class="design-screen design-info-screen" aria-labelledby="more-info-title">
+          <div class="design-info-scroll">
+            <button class="design-text-back" type="button" (click)="showHome()">← Volver al inicio</button>
+            <p class="design-kicker">CRITERIOS Y TRANSPARENCIA</p>
+            <h1 id="more-info-title">Más información</h1>
+            <p class="design-info-lead">Esta herramienta sirve para explorar propuestas electorales; no sustituye la lectura de los programas ni decide tu voto.</p>
+
+            <div class="design-info-sections">
+              <article><h2>De dónde salen los datos</h2><p>Las preguntas se elaboran a partir de los programas electorales enlazados en cada edición. En «¿De dónde sale esta pregunta?» puedes consultar el contexto, la referencia utilizada y el documento de cada partido cuando está disponible.</p></article>
+              <article><h2>Qué significa el resultado</h2><p>La puntuación refleja coincidencias con las posturas recogidas para las preguntas que has respondido. No mide la calidad de un partido, la importancia de cada tema ni la probabilidad de que cumpla sus propuestas. Todos los temas cuentan igual.</p></article>
+              <article><h2>Alcance y límites</h2><p>Los programas pueden ser ambiguos, no tratar un tema o expresarlo de formas distintas. La clasificación de una postura implica interpretación y puede simplificar matices. Por eso mostramos las referencias y no puntuamos los temas sin una posición clara.</p></article>
+              <article><h2>Privacidad</h2><p>El test no pide nombre, correo ni cuenta. Tus respuestas se procesan en esta página para calcular el resultado y no se guardan: desaparecen al recargar o cerrar la página.</p></article>
+            </div>
+            <button class="design-primary-action" type="button" (click)="showElections()">Elegir elecciones <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+      } @else if (screen() === 'elections') {
+        <section class="design-screen design-choice-screen" id="inicio" aria-labelledby="election-title">
+          <div class="design-intro">
+            <p class="design-kicker">01 · ELIGE TU CONVOCATORIA</p>
+            <h1 id="election-title">¿Para qué elecciones<br /><em>quieres hacer el test?</em></h1>
+            <p>Compara tu opinión con las propuestas de los programas electorales publicados.</p>
+          </div>
+
+          <div class="design-choice-dock" aria-label="Elige una convocatoria electoral">
+            @for (edition of catalog(); track edition.year) {
+              <button class="design-choice-button design-choice-current" type="button" (click)="chooseEdition(edition)">
+                <span><strong>{{ edition.label }}</strong><small>Empezar a comparar</small></span>
+                <span class="design-choice-mark" aria-hidden="true">→</span>
+              </button>
+            }
+            @if (hasUpcoming2026()) {
+              <div class="design-choice-button design-choice-upcoming" aria-disabled="true">
+                <span><strong>Generales · 2026</strong><small>Estamos preparando esta edición.</small></span>
+                <span class="design-upcoming-label">PRÓXIMAMENTE</span>
+              </div>
+            }
+          </div>
+        </section>
+      } @else if (screen() === 'parties') {
+        <section class="design-screen design-parties-screen" aria-labelledby="parties-title">
+          <div class="design-intro design-parties-intro">
+            <button class="design-text-back" type="button" (click)="backToElections()">← Cambiar elecciones</button>
+            <p class="design-kicker">02 · {{ selectedEdition()?.label }}</p>
+            <h1 id="parties-title">¿Con qué partidos<br /><em>quieres comparar?</em></h1>
+            <p>Elige al menos dos. Todos están seleccionados por defecto.</p>
+          </div>
+
+          <div class="design-party-picker">
+            <div class="design-party-picker-heading">
+              <strong>{{ selectedPartyIds().length }} de {{ pack()?.parties?.length ?? 0 }} seleccionados</strong>
+              @if (selectedPartyIds().length === (pack()?.parties?.length ?? 0)) {
+                <button type="button" (click)="clearPartySelection()">Quitar todos</button>
+              } @else {
+                <button type="button" (click)="selectAllParties()">Seleccionar todos</button>
+              }
+            </div>
+            <div class="design-party-picker-list" role="group" aria-label="Partidos para comparar">
+              @for (party of pack()?.parties ?? []; track party.id) {
+                <button class="design-party-picker-option" [class.is-selected]="selectedPartyIds().includes(party.id)" [attr.aria-pressed]="selectedPartyIds().includes(party.id)" [style.--party-color]="party.color" type="button" (click)="toggleParty(party.id)">
+                  <span class="design-party-picker-logo"><img [src]="party.logo" alt="" /></span>
+                  <span class="design-party-picker-name">{{ party.name }}</span>
+                  <span class="design-party-picker-check" aria-hidden="true">✓</span>
+                </button>
+              }
+            </div>
+          </div>
+
+          <div class="design-party-picker-footer">
+            <label class="design-feedback-setting">
+              <input type="checkbox" [checked]="showAnswerFeedback()" (change)="toggleAnswerFeedback()" />
+              <span class="design-setting-check" aria-hidden="true">✓</span>
+              <span><strong>Mostrar resultados tras cada respuesta</strong><small>Verás cómo cambia la puntuación de cada partido.</small></span>
+            </label>
+            @if (selectedPartyIds().length < 2) {
+              <p class="design-selection-hint" role="status">Selecciona al menos dos partidos para continuar.</p>
+            }
+            <button class="design-primary-action" type="button" (click)="continueToTestType()" [disabled]="selectedPartyIds().length < 2">Continuar <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+      } @else if (screen() === 'test-type') {
+        <section class="design-screen design-choice-screen" aria-labelledby="test-type-title">
+          <div class="design-intro">
+            <button class="design-text-back" type="button" (click)="backToParties()">← Cambiar partidos</button>
+            <p class="design-kicker">03 · {{ selectedEdition()?.label }}</p>
+            <h1 id="test-type-title">Elige cuánto<br /><em>quieres profundizar.</em></h1>
+            <p>El test normal suma temas al rápido; el extenso incluye todas las preguntas.</p>
+          </div>
+
+          <div class="design-choice-dock design-test-dock" aria-label="Elige el tipo de test">
+            <button class="design-test-option design-test-rapid" [class.design-test-pending]="questionCountFor('rapido') === 0" type="button" (click)="startQuiz('rapido')" [disabled]="questionCountFor('rapido') === 0">
+              <span><strong>Rápido</strong><small>Una selección breve de temas clave.</small></span>
+              @if (questionCountFor('rapido') === 0) {
+                <span class="design-upcoming-label">EN PREPARACIÓN</span>
+              } @else {
+                <span class="design-option-arrow" aria-hidden="true">→</span>
+              }
+            </button>
+            <button class="design-test-option design-test-normal" type="button" (click)="startQuiz('normal')">
+              <span><strong>Normal</strong><small>Más propuestas de economía, servicios y derechos.</small></span>
+              <span class="design-option-arrow" aria-hidden="true">→</span>
+            </button>
+            <button class="design-test-option design-test-extended" type="button" (click)="startQuiz('extenso')">
+              <span><strong>Extenso</strong><small>Todas las preguntas para comparar con detalle.</small></span>
+              <span class="design-option-arrow" aria-hidden="true">→</span>
+            </button>
+          </div>
+        </section>
+      } @else if (screen() === 'quiz') {
+        @if (activeQuestion(); as question) {
+          <section class="design-screen design-quiz-screen" aria-labelledby="question-title">
+            <div class="design-quiz-intro">
+              <div class="design-quiz-meta">
+                <button class="design-text-back" type="button" (click)="goBack()">{{ currentIndex() === 0 ? '← Cambiar test' : '← Anterior' }}</button>
+                <span class="design-kicker">{{ question.topic }}</span>
+              </div>
+              <h1 id="question-title">{{ question.question }}</h1>
+              <p class="design-question-note">No hay respuestas correctas: queremos saber qué opinas tú.</p>
+              <details class="design-source">
+                <summary>¿De dónde sale esta pregunta?</summary>
+                <div class="design-source-content">
+                  <p class="source-intro">{{ question.context }}</p>
+                  <div class="source-columns">
+                    <div class="source-group">
+                      <h3>Partidos a favor</h3>
+                      @for (item of evidenceFor(question, 'yes'); track item.partyId) {
+                        <p class="source-item"><strong>{{ partyFor(item.partyId)?.name }}</strong> {{ item.reference }} <a [href]="item.href" target="_blank" rel="noreferrer">Ver programa ↗</a></p>
+                      }
+                    </div>
+                    <div class="source-group">
+                      <h3>Partidos en contra</h3>
+                      @for (item of evidenceFor(question, 'no'); track item.partyId) {
+                        <p class="source-item"><strong>{{ partyFor(item.partyId)?.name }}</strong> {{ item.reference }} <a [href]="item.href" target="_blank" rel="noreferrer">Ver programa ↗</a></p>
+                      }
+                    </div>
+                  </div>
+                  <p class="source-footnote">Los partidos sin postura explícita en este tema no se puntúan para esta pregunta.</p>
+                </div>
+              </details>
+            </div>
+
+            <div class="design-answer-dock">
+              <div class="design-answer-buttons" role="group" aria-label="Elige tu respuesta">
+                <button class="design-answer-button design-answer-yes" type="button" (click)="chooseAnswer(true)"><span>Sí</span></button>
+                <button class="design-answer-button design-answer-no" type="button" (click)="chooseAnswer(false)"><span>No</span></button>
+              </div>
+              <button class="design-skip-button" type="button" (click)="skipQuestion()">Prefiero pasar</button>
+            </div>
+          </section>
+        }
+      } @else {
+        <section class="design-screen design-results-screen" aria-labelledby="results-title">
+          <div class="design-results-scroll">
+            <div class="design-results-heading">
+              <p class="design-kicker">TUS RESULTADOS · {{ pack()?.year }}</p>
+              <h1 id="results-title">Tu forma de ver<br /><em>las cosas importa.</em></h1>
+              <p>Esta comparación usa las propuestas publicadas y las preguntas que has respondido.</p>
+              <button class="design-share-button" type="button" (click)="shareResults()" [disabled]="answeredCount() === 0 || sharingResults()">
+                <span aria-hidden="true">↗</span>{{ sharingResults() ? 'Preparando imagen…' : 'Compartir resultados' }}
+              </button>
+              @if (shareMessage()) {
+                <p class="design-share-status" role="status">{{ shareMessage() }}</p>
+              }
+            </div>
+
+            @if (answeredCount() === 0) {
+              <article class="design-empty-result">
+                <h2>Nos faltan tus respuestas.</h2>
+                <p>Responde al menos una pregunta para comparar los programas.</p>
+                <button class="design-primary-action" type="button" (click)="startQuiz()">Volver a las preguntas</button>
+              </article>
+            } @else if (bestResult(); as best) {
+              <article class="design-best-match" [style.--party-color]="best.color">
+                <span class="design-best-orbit" aria-hidden="true">✳</span>
+                <div class="design-best-copy">
+                  <p class="design-match-label">MÁS AFINIDAD CON TUS RESPUESTAS</p>
+                  <h2>{{ best.name }}</h2>
+                  <p>{{ best.points > 0 ? '+' : '' }}{{ best.points }} puntos netos en {{ best.compared }} temas con postura clara.</p>
+                </div>
+                <div class="design-best-score"><strong>{{ best.score.toFixed(1) }}<small>/10</small></strong><span>puntuación</span></div>
+              </article>
+            }
+
+            <div class="design-results-summary"><span><strong>{{ answeredCount() }}</strong> respuestas</span><i></i><span><strong>{{ questions().length }}</strong> temas del test</span></div>
+            <div class="design-party-heading"><h2>Tu mapa de afinidad</h2><span>de mayor a menor</span></div>
+            <section class="design-party-results" aria-label="Resultados por partido">
+              @for (result of results(); track result.id; let rank = $index) {
+                <article class="design-party-row" [class.is-top-match]="rank === 0 && result.compared > 0" [style.--party-color]="result.color">
+                  <span class="design-party-rank">{{ (rank + 1).toString().padStart(2, '0') }}</span>
+                  <span class="design-party-logo"><img [src]="result.logo" alt="" aria-hidden="true" /></span>
+                  <span class="design-party-name"><strong>{{ result.name }}</strong><small>{{ result.area }}</small></span>
+                  <span class="design-party-meter" aria-hidden="true"><i [style.width.%]="result.score * 10"></i></span>
+                  <span class="design-party-score"><strong>{{ result.compared === 0 ? '—' : result.score.toFixed(1) + '/10' }}</strong><small>{{ result.points > 0 ? '+' : '' }}{{ result.points }} puntos · {{ result.compared }} temas</small></span>
+                </article>
+              }
+            </section>
+
+            <details class="design-transparency">
+              <summary>Cómo se calcula la puntuación</summary>
+              <p>Cada coincidencia suma 1 punto y cada postura contraria resta 1. El saldo se convierte a una escala de 0 a 10: 0 significa que todas las respuestas comparables contradicen el programa y 10 que todas coinciden. Solo se usan preguntas respondidas con una postura clara para ese partido; las respuestas pasadas y los temas sin postura se ignoran.</p>
+            </details>
+
+            <section class="design-result-sources">
+              <p class="design-kicker">TRANSPARENCIA · PROGRAMAS ELECTORALES DE {{ pack()?.year }}</p>
+              @for (question of questions(); track question.id; let i = $index) {
+                <details class="design-result-source">
+                  <summary><span>{{ (i + 1).toString().padStart(2, '0') }}</span><strong>{{ question.question }}</strong><i>{{ answers()[i] === null ? 'Pasada' : answers()[i] ? 'Sí' : 'No' }}</i></summary>
+                  <p class="source-intro">{{ question.context }}</p>
+                  <div class="source-columns">
+                    <div class="source-group">
+                      <h3>Partidos a favor</h3>
+                      @for (item of evidenceFor(question, 'yes'); track item.partyId) {
+                        <p class="source-item"><strong>{{ partyFor(item.partyId)?.name }}</strong> {{ item.reference }} <a [href]="item.href" target="_blank" rel="noreferrer">Ver programa ↗</a></p>
+                      }
+                    </div>
+                    <div class="source-group">
+                      <h3>Partidos en contra</h3>
+                      @for (item of evidenceFor(question, 'no'); track item.partyId) {
+                        <p class="source-item"><strong>{{ partyFor(item.partyId)?.name }}</strong> {{ item.reference }} <a [href]="item.href" target="_blank" rel="noreferrer">Ver programa ↗</a></p>
+                      }
+                    </div>
+                  </div>
+                </details>
+              }
+            </section>
+          </div>
+
+          <div class="design-result-actions">
+            <button class="design-answer-button design-answer-yes" type="button" (click)="startQuiz()"><span>Repetir test</span></button>
+            <button class="design-result-home" type="button" (click)="restart()">Volver al inicio</button>
+          </div>
+        </section>
+      }
+    </main>
+    @if (answerFeedback(); as feedback) {
+      <div class="design-feedback-backdrop" aria-hidden="true"></div>
+      <div class="design-feedback-overlay">
+        <section class="design-feedback-panel" role="status" aria-live="polite" aria-atomic="false" [attr.aria-label]="'Cambios de puntuación tras responder ' + (feedback.answer ? 'sí' : 'no')" [style.--feedback-min-height.px]="210 + feedback.parties.length * 99">
+          @if (feedback.parties.length > 0) {
+            <div
+              class="design-feedback-progress"
+              role="progressbar"
+              [attr.aria-label]="'Progreso de puntuación: ' + (answerFeedbackIndex() + 1) + ' de ' + feedback.parties.length + ' partidos'"
+              [attr.aria-valuemin]="0"
+              [attr.aria-valuemax]="feedback.parties.length"
+              [attr.aria-valuenow]="answerFeedbackIndex() + 1"
+            >
+              @for (impact of feedback.parties; track $index; let i = $index) {
+                <span class="design-feedback-progress-step" [class.is-complete]="i < answerFeedbackIndex()" [class.is-current]="i === answerFeedbackIndex()"></span>
+              }
+            </div>
+          }
+          <div #feedbackList class="design-feedback-list">
+          @for (impact of feedback.parties; track $index; let i = $index) {
+              <div
+                #feedbackStep
+                class="design-feedback-step"
+                [class.is-revealed]="i <= answerFeedbackIndex()"
+                [class.is-current]="i === answerFeedbackIndex()"
+                [class.is-gain]="impact.delta > 0"
+                [class.is-loss]="impact.delta < 0"
+                [style.--party-color]="impact.color"
+                [attr.aria-hidden]="i > answerFeedbackIndex() ? 'true' : null"
+              >
+                <span class="design-feedback-marker" aria-hidden="true">{{ i + 1 }}</span>
+                @if (i <= answerFeedbackIndex()) {
+                <span class="design-feedback-logo"><img [src]="impact.logo" alt="" aria-hidden="true" /></span>
+                <strong class="design-feedback-name">{{ impact.name }}</strong>
+                <span class="design-feedback-points"><strong>{{ impact.delta > 0 ? '+1' : '−1' }}</strong><small>punto</small></span>
+                } @else {
+                  <span class="design-feedback-logo is-placeholder" aria-hidden="true"></span>
+                  <span class="design-feedback-placeholder" aria-hidden="true"><i></i><i></i></span>
+                  <span class="design-feedback-points is-placeholder" aria-hidden="true"><strong>—</strong><small>puntos</small></span>
+                }
+              </div>
+          }
+          </div>
+          @if (feedback.parties.length === 0) {
+            <p class="design-feedback-empty">Esta pregunta no modifica la puntuación.</p>
+          }
+        </section>
+      </div>
+    }
+  }
+</div>

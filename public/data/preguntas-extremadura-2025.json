@@ -1,0 +1,2863 @@
+{
+  "year": 2025,
+  "election": "Elecciones a la Asamblea de Extremadura",
+  "parties": [
+    {
+      "id": "pp",
+      "name": "PP",
+      "area": "Extremadura",
+      "color": "#3e7bc1",
+      "logo": "/logos/partidos/pp.svg",
+      "program": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf"
+    },
+    {
+      "id": "psoe",
+      "name": "PSOE",
+      "area": "Extremadura",
+      "color": "#e65363",
+      "logo": "/logos/partidos/psoe.svg",
+      "program": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf"
+    },
+    {
+      "id": "unidas",
+      "name": "Unidas por Extremadura",
+      "area": "Extremadura",
+      "color": "#7950a3",
+      "logo": "/logos/partidos/unidas.svg",
+      "program": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf"
+    },
+    {
+      "id": "vox",
+      "name": "Vox",
+      "area": "Extremadura",
+      "color": "#6e9d48",
+      "logo": "/logos/partidos/vox.svg",
+      "program": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "vivienda-protegida",
+      "topic": "Vivienda",
+      "question": "¿Debería la Junta impulsar más viviendas protegidas para facilitar el acceso a un hogar?",
+      "context": "Se compara el aumento de vivienda protegida, sin equiparar las cifras ni las condiciones de acceso de cada programa.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 45 del PDF: Continuar el Plan Habita y URVIPEXSA con más de 3.000 viviendas de protección oficial.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=45"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 71 del PDF: Construir y rehabilitar 1.000 viviendas asequibles con un precio máximo de 90.000 euros.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=71"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 45 del PDF: Promover al menos 5.000 viviendas de protección oficial a un precio máximo de 80.000 euros.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=45"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 104 del PDF, medida 312: Aumentar el presupuesto de vivienda y promover vivienda protegida para familias españolas mediante colaboración público-privada.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=104"
+        }
+      ]
+    },
+    {
+      "id": "almaraz-prorroga",
+      "topic": "Energía",
+      "question": "¿Debería mantenerse abierta la central nuclear de Almaraz más allá del calendario de cierre previsto?",
+      "context": "La pregunta distingue la continuidad de la central del cumplimiento del calendario de cierre. No se atribuye postura a partir de una rebaja fiscal condicionada a que siga abierta.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [
+        "unidas"
+      ],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 70 del PDF, medida 210: Evitar el cierre de Almaraz y defender la continuidad de la industria nuclear.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=70"
+        },
+        {
+          "partyId": "unidas",
+          "position": "no",
+          "reference": "Página 183 del PDF: Cumplir el calendario de cierre de Almaraz y oponerse a cualquier prórroga.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=183"
+        }
+      ]
+    },
+    {
+      "id": "ecotasa-almaraz",
+      "topic": "Impuestos",
+      "question": "¿Debería reducirse o eliminarse la ecotasa que paga la central de Almaraz?",
+      "context": "El sí incluye una rebaja parcial o su eliminación; el no corresponde a mantener la ecotasa. Las propuestas de PP y Vox tienen distinto alcance.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "pp",
+        "vox"
+      ],
+      "noParties": [
+        "psoe"
+      ],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 92 del PDF: Reducir gradualmente el gravamen ambiental desde 2027, condicionado a que Almaraz permanezca abierta.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=92"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 88 del PDF, medida 261: Suprimir totalmente la ecotasa para mantener Almaraz.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=88"
+        },
+        {
+          "partyId": "psoe",
+          "position": "no",
+          "reference": "Página 13 del PDF: Mantener la ecotasa y orientarla a la transición energética y la innovación sostenible.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=13"
+        }
+      ]
+    },
+    {
+      "id": "sanidad-colaboracion-privada",
+      "topic": "Sanidad",
+      "question": "¿Debería ampliarse la colaboración con centros sanitarios privados para reducir las listas de espera?",
+      "context": "Se compara recurrir a capacidad privada frente a reducir progresivamente los conciertos sanitarios.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [
+        "unidas"
+      ],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 26 del PDF, medida 57: Potenciar la colaboración público-privada para utilizar toda la capacidad asistencial disponible.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=26"
+        },
+        {
+          "partyId": "unidas",
+          "position": "no",
+          "reference": "Página 72 del PDF: Reducir hasta eliminar el gasto en conciertos y revertir las privatizaciones sanitarias.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=72"
+        }
+      ]
+    },
+    {
+      "id": "infantil-gratuita",
+      "topic": "Educación",
+      "question": "¿Debería ser gratuita la educación infantil de 0 a 3 años?",
+      "context": "Se compara la gratuidad de la etapa; cada programa plantea una combinación diferente de plazas públicas y ayudas.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 92 del PDF: Mantener la bonificación del 100% del precio público en centros de educación infantil de 0 a 3 años.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=92"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 44 del PDF: Garantizar la etapa como derecho universal y gratuito y crear 3.000 plazas públicas.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=44"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 78 del PDF: Garantizar la gratuidad de los centros existentes y una red pública que cubra toda la demanda.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=78"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 118 del PDF, medida 367: Garantizar la gratuidad de 0 a 3 años y deducir los gastos escolares de esta etapa.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=118"
+        }
+      ]
+    },
+    {
+      "id": "politicas-lgtbi",
+      "topic": "Igualdad",
+      "question": "¿Debería la Junta desarrollar políticas específicas contra la discriminación de las personas LGTBI?",
+      "context": "Se comparan políticas públicas específicas, sin confundirlas con el apoyo genérico a la igualdad ante la ley.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "pp",
+        "unidas"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Poner en marcha una estrategia para la igualdad de trato y no discriminación de personas LGTBI.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=72"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 125 del PDF: Introducir medidas LGTBI de forma transversal en las políticas autonómicas.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=125"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Página 124 del PDF, medida 401: Superar las leyes LGTBI y las políticas que el programa vincula a la ideología de género.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=124"
+        }
+      ]
+    },
+    {
+      "id": "impuesto-patrimonio",
+      "topic": "Impuestos",
+      "question": "¿Debería recuperarse el Impuesto sobre el Patrimonio en Extremadura?",
+      "context": "Se pregunta por recuperar este impuesto, sin equiparar sus umbrales o tipos. No se deduce una oposición del silencio de los otros programas.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 25 del PDF: Recuperar el impuesto para financiar bienestar y vivienda pública.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=25"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 30 del PDF: Recuperar y elevar sus tipos para patrimonios superiores a un millón de euros, excluida la vivienda habitual.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=30"
+        }
+      ]
+    },
+    {
+      "id": "ampliacion-regadios",
+      "topic": "Agricultura",
+      "question": "¿Debería ampliarse la superficie de regadío en Extremadura?",
+      "context": "Se distingue crear nuevos regadíos de modernizar los existentes. La oposición de Unidas se refiere a paralizar el incremento de superficie.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "pp",
+        "vox",
+        "psoe"
+      ],
+      "noParties": [
+        "unidas"
+      ],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 50 del PDF: Mantener el compromiso de hacer realidad el regadío de Tierra de Barros.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=50"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 64 del PDF, medida 198: Impulsar el proyecto de regadío de Tierra de Barros.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=64"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 81 del PDF: Recuperar Tierra de Barros como proyecto estratégico de regadío.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=81"
+        },
+        {
+          "partyId": "unidas",
+          "position": "no",
+          "reference": "Página 174 del PDF: Ajustar los regadíos al agua disponible y paralizar la propuesta de incremento actual.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=174"
+        }
+      ]
+    },
+    {
+      "id": "comedores-gratuitos",
+      "topic": "Educación",
+      "question": "¿Deberían ser gratuitos los comedores escolares para todo el alumnado?",
+      "context": "Se compara la gratuidad general con las propuestas de ayudas parciales, a las que no se asigna una oposición implícita.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 44 del PDF: Devolver la gratuidad a los comedores escolares y aulas matinales.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=44"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 78 del PDF: Universalizar la gratuidad total de los comedores e implantarla también en la ESO pública.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=78"
+        }
+      ]
+    },
+    {
+      "id": "comunidades-energeticas",
+      "topic": "Energía",
+      "question": "¿Debería la Junta apoyar comunidades energéticas para que vecinos y pymes produzcan y compartan electricidad?",
+      "context": "Se comparan las ayudas a la generación y el consumo colectivo de energía; no se presupone un mismo modelo de propiedad.",
+      "testLevel": "rapido",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 62 del PDF: Ayudar a crear comunidades energéticas, con atención a los colectivos vulnerables.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=62"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 78 del PDF: Financiar y asesorar comunidades energéticas locales y autoconsumo de cooperativas y pymes.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=78"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 182 del PDF: Crear comunidades en pueblos de menos de 2.000 habitantes con participación de la empresa pública de energía.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=182"
+        }
+      ]
+    },
+    {
+      "id": "alquiler-zonas-tensionadas",
+      "topic": "Vivienda",
+      "question": "¿Deberían aplicarse límites al alquiler en las zonas declaradas de mercado tensionado?",
+      "context": "Se compara el uso de la declaración de zonas tensionadas para intervenir en el mercado del alquiler.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 70 del PDF: Estudiar las zonas tensionadas y aplicar efectivamente la Ley Estatal por el Derecho a la Vivienda.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=70"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 45 del PDF: Declarar zonas tensionadas donde se cumplan los requisitos y topar los alquileres.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=45"
+        }
+      ]
+    },
+    {
+      "id": "jefaturas-sanidad-exclusividad",
+      "topic": "Sanidad",
+      "question": "¿Deberían las jefaturas de servicio y sección del SES dedicarse exclusivamente a la sanidad pública?",
+      "context": "La pregunta se refiere a estas responsabilidades directivas, no a la compatibilidad de todos los profesionales sanitarios.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 61 del PDF: Garantizar la dedicación exclusiva de jefaturas de servicio y sección al sistema público.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=61"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Derogar la compatibilidad con la actividad privada para jefes de servicio y sección.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=72"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Página 27 del PDF, medida 64: Mantener la compatibilidad de estas jefaturas con la actividad en centros privados.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=27"
+        }
+      ]
+    },
+    {
+      "id": "primaria-presupuesto",
+      "topic": "Sanidad",
+      "question": "¿Debería la Atención Primaria recibir al menos el 25% del presupuesto sanitario?",
+      "context": "Se compara un objetivo presupuestario concreto; reforzar la Atención Primaria sin fijar ese porcentaje no basta para asignar postura.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 61 del PDF: Avanzar hacia el objetivo del 25% del presupuesto sanitario para Atención Primaria.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=61"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 69 del PDF: Elevar la inversión en Atención Primaria hasta el 25% del gasto sanitario.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=69"
+        }
+      ]
+    },
+    {
+      "id": "salud-mental-juvenil",
+      "topic": "Sanidad",
+      "question": "¿Deberían reforzarse los equipos públicos de salud mental para niños y adolescentes?",
+      "context": "Se compara ampliar la capacidad asistencial pública para esta población.",
+      "testLevel": "normal",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 17 del PDF: Potenciar las unidades de salud mental infantojuvenil.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=17"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 63 del PDF: Ampliar psicología clínica, pediatría especializada y programas para infancia y adolescencia.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=63"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 70 del PDF: Crear un plan infantojuvenil con equipos en las ocho áreas de salud.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=70"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 25 del PDF, medida 53: Dotar de más recursos la atención pública en salud mental, con especial atención a infancia y juventud.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=25"
+        }
+      ]
+    },
+    {
+      "id": "ratios-escolares",
+      "topic": "Educación",
+      "question": "¿Debería reducirse el número máximo de alumnos por aula?",
+      "context": "Se compara bajar las ratios, sin atribuir a todos los partidos el mismo calendario o límite.",
+      "testLevel": "normal",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 34 del PDF: Bajar progresivamente a 22 alumnos en Primaria y 25 en ESO.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=34"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Implantar ratios de 22 en Infantil y Primaria y de 25 en Secundaria.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=46"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 78 del PDF: Reducir las ratios para mejorar la atención y calidad educativas.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=78"
+        }
+      ]
+    },
+    {
+      "id": "vocaciones-cientificas-ninas",
+      "topic": "Educación",
+      "question": "¿Deberían existir programas científicos y tecnológicos con atención especial a niñas y jóvenes?",
+      "context": "La diferencia es introducir acciones específicas para reducir la brecha de género en ciencia y tecnología.",
+      "testLevel": "normal",
+      "yesParties": [
+        "pp",
+        "psoe"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 32 del PDF: Impulsar vocaciones digitales y STEM con especial atención a niñas y jóvenes.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=32"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 45 del PDF: Potenciar la participación y vocación científica de las niñas en programas STEM.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=45"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Páginas 37–38 del PDF, medida 102: Evitar programas científicos orientados especialmente a mujeres y la perspectiva de género educativa.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=37"
+        }
+      ]
+    },
+    {
+      "id": "impuesto-huella-energetica",
+      "topic": "Impuestos",
+      "question": "¿Debería crearse un impuesto autonómico que compense la huella territorial de las grandes instalaciones energéticas?",
+      "context": "Se compara un nuevo tributo autonómico sobre instalaciones energéticas, distinto de la ecotasa nuclear.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 26 del PDF: Crear una figura impositiva para compensar la huella de grandes instalaciones de energía.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=26"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 30 del PDF: Gravar afecciones ambientales de parques eólicos, fotovoltaicos y transporte eléctrico, con exenciones para instalaciones públicas y autoconsumo.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=30"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Página 89 del PDF, medida 264: Eliminar todos los tributos propios autonómicos.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=89"
+        }
+      ]
+    },
+    {
+      "id": "viviendas-vacias-grandes-tenedores",
+      "topic": "Vivienda",
+      "question": "¿Deberían pagar un impuesto los grandes propietarios que mantengan viviendas vacías?",
+      "context": "Se pregunta por gravar viviendas vacías de grandes tenedores, no por gravar cualquier vivienda desocupada.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 25 del PDF: Restablecer el impuesto sobre viviendas vacías de grandes tenedores.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=25"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 30 del PDF: Crear un impuesto a grandes tenedores de viviendas vacías.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=30"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Página 89 del PDF, medida 264: Eliminar todos los tributos propios autonómicos.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=89"
+        }
+      ]
+    },
+    {
+      "id": "transporte-gratuito",
+      "topic": "Movilidad",
+      "question": "¿Debería ser gratuito el transporte regular de viajeros en Extremadura?",
+      "context": "Se compara la gratuidad general del servicio, sin considerar las bonificaciones parciales como una oposición.",
+      "testLevel": "normal",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 30 del PDF: Establecer la gratuidad del servicio de transporte regular de viajeros.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=30"
+        }
+      ]
+    },
+    {
+      "id": "salario-docente",
+      "topic": "Educación",
+      "question": "¿Debería equipararse el salario del profesorado extremeño con el de otras comunidades autónomas?",
+      "context": "Se compara la equiparación salarial, sin equiparar las cuantías ni los plazos propuestos.",
+      "testLevel": "normal",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 34 del PDF: Recuperar poder adquisitivo y avanzar en la equiparación salarial, comenzando con 80 euros mensuales.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=34"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Equiparar el salario docente con otras comunidades, proponiendo 200 euros mensuales.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=46"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 78 del PDF: Homologar los salarios docentes con otras comunidades.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=78"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 39 del PDF, medida 107: Homologar los salarios del profesorado a la media nacional.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=39"
+        }
+      ]
+    },
+    {
+      "id": "ayuda-autonomos-baja",
+      "topic": "Empleo",
+      "question": "¿Debería la Junta cubrir la cuota de los autónomos durante los dos primeros meses de baja médica?",
+      "context": "La propuesta se refiere al coste de cotización durante una incapacidad temporal.",
+      "testLevel": "normal",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 23 del PDF: Crear el programa Coste Cero de tu baja para los dos primeros meses de incapacidad temporal.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=23"
+        }
+      ]
+    },
+    {
+      "id": "avales-vivienda-joven",
+      "topic": "Vivienda",
+      "question": "¿Debería la Junta ofrecer avales públicos para facilitar a los jóvenes la compra de su primera vivienda?",
+      "context": "Se compara facilitar la financiación mediante avales; los programas difieren en cobertura, renta y requisitos familiares.",
+      "testLevel": "normal",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 45 del PDF: Ampliar el Aval Joven para acceder a la primera vivienda.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=45"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 73 del PDF: Reformular el aval para cubrir hasta el 100% del precio y los gastos, con límites de renta y precio asequible.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=73"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 104 del PDF, medida 311: Facilitar avales públicos y créditos blandos para parejas jóvenes vinculados al número de hijos.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=104"
+        }
+      ]
+    },
+    {
+      "id": "vivienda-proteccion-permanente",
+      "topic": "Vivienda",
+      "question": "¿Deberían las viviendas construidas con fondos públicos conservar permanentemente su protección?",
+      "context": "Se compara impedir que la vivienda pública pierda su condición protegida.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 71 del PDF: Garantizar el carácter protegido permanente de las viviendas construidas con fondos públicos.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=71"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Blindar el parque público e impedir que sus viviendas pierdan esa condición.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=46"
+        }
+      ]
+    },
+    {
+      "id": "dependencia-domicilio",
+      "topic": "Cuidados",
+      "question": "¿Debería ampliarse la ayuda a domicilio para que las personas dependientes puedan seguir viviendo en su casa?",
+      "context": "Se compara ampliar los servicios domiciliarios, sin imponer que todas las personas deban permanecer en su hogar.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 65 del PDF: Crear una red pública de ayuda a domicilio en cada municipio, ajustada a las necesidades reales.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=65"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 96 del PDF: Ampliar horas y prestaciones de atención domiciliaria para quienes quieran y puedan permanecer en casa.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=96"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 118 del PDF, medida 372: Ampliar el programa Respiro con apoyos a las familias en asistencia a domicilio.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=118"
+        }
+      ]
+    },
+    {
+      "id": "memoria-democratica",
+      "topic": "Memoria",
+      "question": "¿Debería recuperarse una ley autonómica de memoria democrática?",
+      "context": "Se compara restablecer esa legislación frente al rechazo explícito a las políticas de memoria histórica.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 94 del PDF: Derogar la Ley de Concordia y recuperar la Ley de Memoria Democrática.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=94"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 152 del PDF: Recuperar y mejorar la Ley de Memoria Democrática y financiar sus políticas.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=152"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Página 9 del PDF, medida 8: Rechazar las leyes de memoria histórica y democrática y revertir sus políticas.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=9"
+        }
+      ]
+    },
+    {
+      "id": "consejeria-igualdad",
+      "topic": "Igualdad",
+      "question": "¿Debería existir una consejería específica de igualdad en la Junta?",
+      "context": "La pregunta se refiere a un departamento propio; apoyar políticas de igualdad sin proponerlo no se puntúa.",
+      "testLevel": "normal",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 29 del PDF: Recuperar el peso institucional de la igualdad mediante una consejería propia.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=29"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 113 del PDF: Crear una consejería específica de igualdad, diversidad y contra la violencia machista.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=113"
+        }
+      ]
+    },
+    {
+      "id": "prioridad-nacional-vivienda",
+      "topic": "Vivienda",
+      "question": "¿Debería tener prioridad la población española en el acceso a vivienda social y protegida?",
+      "context": "Se compara introducir la prioridad nacional y el arraigo como criterios de asignación. No se deduce una postura contraria de los demás programas.",
+      "testLevel": "normal",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 107 del PDF, medidas 324–326: Establecer prioridad nacional en vivienda y usar el arraigo y los años de la familia en España como principales criterios.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=107"
+        }
+      ]
+    },
+    {
+      "id": "suelo-urbanizable",
+      "topic": "Urbanismo",
+      "question": "¿Debería facilitarse la urbanización de todo el suelo que no necesite protección especial?",
+      "context": "La propuesta excluye terrenos que deban protegerse por interés ambiental, paisajístico, productivo o de defensa.",
+      "testLevel": "normal",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 104 del PDF, medidas 308–309: Liberar el suelo que no esté ni deba estar especialmente protegido y acelerar su transformación.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=104"
+        }
+      ]
+    },
+    {
+      "id": "energia-empresa-publica",
+      "topic": "Energía",
+      "question": "¿Debería crearse una empresa pública extremeña que produzca y distribuya energía limpia?",
+      "context": "Se pregunta por una empresa autonómica, no solo por subvencionar instalaciones privadas o cooperativas.",
+      "testLevel": "normal",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 12 del PDF: Crear una empresa pública productora y distribuidora de energía limpia.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=12"
+        }
+      ]
+    },
+    {
+      "id": "infraestructuras-transfronterizas",
+      "topic": "Movilidad",
+      "question": "¿Deberían reforzarse las conexiones de transporte entre Extremadura y Portugal?",
+      "context": "Se compara mejorar las conexiones transfronterizas, sin equiparar los proyectos concretos de cada partido.",
+      "testLevel": "normal",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 60 del PDF: Impulsar conexiones y puentes internacionales en Monfortinho y Cedillo.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=60"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 87 del PDF: Desarrollar proyectos de movilidad con Alentejo y la región Centro portuguesa.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=87"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Páginas 16–17 del PDF, medida 31: Reivindicar el corredor ferroviario Madrid-Lisboa.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=16"
+        }
+      ]
+    },
+    {
+      "id": "alquiler-temporada",
+      "topic": "Vivienda",
+      "question": "¿Deberían regularse los alquileres de temporada para frenar subidas de precios y favorecer el alquiler habitual?",
+      "context": "Se compara intervenir en esta modalidad de alquiler, distinta del alquiler turístico.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Regular precios del alquiler de temporada limitando subidas en zonas tensionadas.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=72"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Incluir la regulación del alquiler de temporada en una nueva ley de vivienda.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=46"
+        }
+      ]
+    },
+    {
+      "id": "rehabilitacion-vivienda-rural",
+      "topic": "Vivienda",
+      "question": "¿Deberían rehabilitarse viviendas vacías de los pueblos para ofrecerlas a precios asequibles?",
+      "context": "Se compara recuperar vivienda rural vacía, sin equiparar sus objetivos numéricos o las modalidades de gestión.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 45 del PDF: Reforzar la rehabilitación rural para disponer de viviendas asequibles en municipios pequeños.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=45"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 71 del PDF: Rehabilitar 5.000 viviendas rurales vacías para alquiler asequible.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=71"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 47 del PDF: Captar y rehabilitar casas deshabitadas de pequeñas poblaciones para venta o alquiler asequibles.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=47"
+        }
+      ]
+    },
+    {
+      "id": "primera-vivienda-interes-cero",
+      "topic": "Vivienda",
+      "question": "¿Deberían ofrecerse préstamos a interés cero para cubrir la parte de la primera vivienda que no financie el banco?",
+      "context": "Se pregunta por préstamos públicos sin intereses para viviendas asequibles, no por avales hipotecarios.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Ofrecer préstamos a interés cero para el tramo no financiado de la primera vivienda asequible.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=72"
+        }
+      ]
+    },
+    {
+      "id": "aval-fianza-alquiler",
+      "topic": "Vivienda",
+      "question": "¿Debería la Junta avalar la fianza y las garantías del alquiler de los jóvenes?",
+      "context": "Se compara un aval para alquilar, distinto del aval para comprar.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 73 del PDF: Crear un aval joven para fianzas y garantías de alquiler.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=73"
+        }
+      ]
+    },
+    {
+      "id": "alquiler-fiscalidad",
+      "topic": "Vivienda",
+      "question": "¿Deberían ofrecerse incentivos fiscales a quienes alquilen a largo plazo y a precios asequibles?",
+      "context": "Se compara incentivar el alquiler asequible; los programas no establecen los mismos requisitos de duración.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Bonificar fiscalmente las operaciones de venta y alquiler con precios asequibles.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=72"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 106 del PDF, medida 319: Establecer incentivos fiscales al alquiler de larga duración y asequible.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=106"
+        }
+      ]
+    },
+    {
+      "id": "vivienda-emergencia",
+      "topic": "Vivienda",
+      "question": "¿Debería existir una solución habitacional pública para las personas en situación de emergencia residencial?",
+      "context": "Se compara la respuesta a emergencias y exclusión habitacional, sin atribuir el mismo alcance a todos los programas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Garantizar soluciones ante desahucios en exclusión social o emergencia habitacional.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=72"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Disponer de un parque público para emergencias y garantizar vivienda a víctimas de violencia machista.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=46"
+        }
+      ]
+    },
+    {
+      "id": "vivienda-accesibilidad",
+      "topic": "Vivienda",
+      "question": "¿Debería garantizarse la accesibilidad de las nuevas viviendas públicas o protegidas?",
+      "context": "Se compara eliminar barreras de acceso en vivienda pública o protegida.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Garantizar que toda vivienda pública sea plenamente accesible.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=46"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 73 del PDF: Garantizar accesibilidad universal en las viviendas protegidas de nueva construcción.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=73"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Incluir la accesibilidad entre los requisitos básicos de habitabilidad de la vivienda.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=46"
+        }
+      ]
+    },
+    {
+      "id": "vivienda-cohousing",
+      "topic": "Vivienda",
+      "question": "¿Debería la Junta apoyar viviendas colaborativas e intergeneracionales en edificios en desuso?",
+      "context": "Se compara impulsar nuevos modelos comunitarios mediante rehabilitación de edificios.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Impulsar cohousing, coliving y viviendas intergeneracionales en edificios rehabilitados.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=72"
+        }
+      ]
+    },
+    {
+      "id": "vivienda-opcion-compra",
+      "topic": "Vivienda",
+      "question": "¿Debería fomentarse el alquiler con opción a compra?",
+      "context": "Se compara esta vía de acceso a la propiedad, aunque los programas difieren en los inmuebles y ayudas incluidos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Fortalecer el alquiler con opción a compra de vivienda pública.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=72"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 105 del PDF, medida 314: Promover la bonificación del alquiler con opción a compra y la compra a plazos.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=105"
+        }
+      ]
+    },
+    {
+      "id": "ocupacion-desalojo",
+      "topic": "Vivienda",
+      "question": "¿Debería impulsarse el desalojo de viviendas ocupadas ilegalmente en un plazo de 24 horas?",
+      "context": "Se recoge un compromiso del programa, sin presentarlo como un plazo legal vigente ni como competencia exclusiva de la Junta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 106 del PDF, medida 320: Impulsar la expulsión de ocupantes ilegales en 24 horas, con especial atención al parque social.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=106"
+        }
+      ]
+    },
+    {
+      "id": "itp-primera-vivienda",
+      "topic": "Impuestos",
+      "question": "¿Debería reducirse el Impuesto de Transmisiones Patrimoniales para facilitar el acceso a la vivienda habitual?",
+      "context": "Se compara bajar la carga de este impuesto; las propuestas difieren en colectivos, requisitos y grado de bonificación.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 92 del PDF: Ampliar los tipos reducidos a inmuebles de hasta 200.000 euros y elevar los límites de renta.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=92"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 25 del PDF: Aplicar tipos reducidos a colectivos con dificultades de acceso a la vivienda.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=25"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Bajar el impuesto en la adquisición de primera vivienda.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=46"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Páginas 88–89 del PDF, medida 263: Bonificar el 100% de la cuota de compra de vivienda habitual o diferir su pago.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=88"
+        }
+      ]
+    },
+    {
+      "id": "irpf-rentas-altas",
+      "topic": "Impuestos",
+      "question": "¿Deberían subir los tipos autonómicos del IRPF para las rentas superiores a 60.000 euros?",
+      "context": "Se recoge una subida dirigida a rentas altas, diferenciada de las rebajas para rentas bajas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 29 del PDF: Subir los tipos a tributaciones superiores a 60.000 euros y bajarlos a las rentas bajas.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "id": "irpf-rebaja-general",
+      "topic": "Impuestos",
+      "question": "¿Debería reducirse de forma general la tarifa autonómica del IRPF?",
+      "context": "Se compara una reducción general de tarifa; una reforma que baja rentas bajas y sube rentas altas tiene un alcance diferente y no se clasifica como oposición.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 91 del PDF: Reducir gradualmente la tarifa del IRPF.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=91"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 87 del PDF, medida 258: Simplificar y reducir los tipos del tramo autonómico del IRPF.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=87"
+        }
+      ]
+    },
+    {
+      "id": "gastos-veterinarios-deduccion",
+      "topic": "Impuestos",
+      "question": "¿Deberían deducirse en el IRPF los gastos veterinarios de los animales de compañía?",
+      "context": "Se recoge una deducción autonómica con límites y una cuantía ampliada para determinados perros de asistencia y protección.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 91 del PDF: Deducir el 30% de las facturas veterinarias, hasta 100 euros anuales o 200 en los supuestos indicados.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=91"
+        }
+      ]
+    },
+    {
+      "id": "ela-deduccion",
+      "topic": "Impuestos",
+      "question": "¿Debería aumentarse a 4.000 euros la deducción autonómica por gastos de las personas con ELA?",
+      "context": "Se compara una medida fiscal concreta, distinta de ampliar la asistencia o las ayudas directas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 91 del PDF: Elevar de 2.000 a 4.000 euros la deducción por gastos de pacientes con ELA.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=91"
+        }
+      ]
+    },
+    {
+      "id": "sucesiones-todos-grados",
+      "topic": "Impuestos",
+      "question": "¿Debería extenderse la bonificación del Impuesto de Sucesiones y Donaciones a todos los grados de parentesco?",
+      "context": "Se pregunta por extenderla a todos los grados mientras no se derogue el impuesto estatalmente.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 88 del PDF, medida 262: Extender la bonificación a todos los grados hasta la derogación estatal del impuesto.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=88"
+        }
+      ]
+    },
+    {
+      "id": "itv-bonificacion",
+      "topic": "Impuestos",
+      "question": "¿Debería bonificarse el 50% del coste de las inspecciones técnicas de vehículos?",
+      "context": "Se compara una bonificación del 50%; PP la limita a vehículos pesados, agrícolas y profesionales, mientras PSOE no concreta esa limitación en la medida citada.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 92 del PDF: Mantener la bonificación del 50% en las tasas de ITV de vehículos pesados, agrícolas y profesionales.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=92"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 26 del PDF: Aprobar bonificaciones del 50% en las ITV.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=26"
+        }
+      ]
+    },
+    {
+      "id": "fiscalidad-rural",
+      "topic": "Impuestos",
+      "question": "¿Deberían ofrecerse ventajas fiscales para vivir o abrir un negocio en municipios pequeños?",
+      "context": "Se compara usar incentivos fiscales para combatir la despoblación; los destinatarios y condiciones pueden variar.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 26 del PDF: Crear deducciones y bonificaciones para vivir en municipios pequeños y zonas rurales.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=26"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 89 del PDF, medida 266: Establecer incentivos fiscales para instalar empresas en el mundo rural.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=89"
+        }
+      ]
+    },
+    {
+      "id": "financiacion-dispersion",
+      "topic": "Financiación",
+      "question": "¿Debería la financiación autonómica tener más en cuenta el envejecimiento y la dispersión de la población?",
+      "context": "Se compara reclamar al Estado criterios que reflejen el coste de los servicios en una región extensa y poco poblada.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 26 del PDF: Revisar la población ajustada con envejecimiento, despoblación, distancias y costes fijos.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=26"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 69 del PDF: dar más peso a la dispersión y al envejecimiento en la financiación autonómica sanitaria.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=69"
+        }
+      ]
+    },
+    {
+      "id": "tributos-propios-eliminacion",
+      "topic": "Impuestos",
+      "question": "¿Deberían eliminarse todos los impuestos propios de Extremadura?",
+      "context": "La pregunta se refiere a los tributos autonómicos propios, no a los impuestos estatales cedidos. Crear nuevas figuras autonómicas es incompatible con su eliminación total.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [
+        "psoe",
+        "unidas"
+      ],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 89 del PDF, medida 264: Acabar con todos los tributos propios y reducir las tasas autonómicas.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=89"
+        },
+        {
+          "partyId": "psoe",
+          "position": "no",
+          "reference": "Página 26 del PDF: Crear un nuevo tributo autonómico por la huella de grandes instalaciones energéticas.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=26"
+        },
+        {
+          "partyId": "unidas",
+          "position": "no",
+          "reference": "Página 30 del PDF: Crear figuras fiscales para viviendas vacías, acaparamiento de tierras y afecciones ambientales.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=30"
+        }
+      ]
+    },
+    {
+      "id": "esperas-sanitarias-limites",
+      "topic": "Sanidad",
+      "question": "¿Deberían garantizarse máximos de 60 días para consultas de especialistas y 30 para pruebas diagnósticas?",
+      "context": "Se comparan estos dos límites concretos, sin equiparar todos los plazos quirúrgicos de los programas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 61 del PDF: Fijar máximos de 60 días en consultas externas y 30 en pruebas complementarias.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=61"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 70 del PDF: Limitar a 60 días las consultas externas y a 30 las pruebas diagnósticas.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=70"
+        }
+      ]
+    },
+    {
+      "id": "auditoria-sanidad",
+      "topic": "Sanidad",
+      "question": "¿Debería auditarse de forma independiente la gestión sanitaria y publicarse trimestralmente sus resultados?",
+      "context": "Se pregunta por una auditoría independiente con resultados periódicos, especialmente de cribados y esperas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 24 del PDF, medidas 50–51: Auditar el sistema sanitario y publicar cada trimestre resultados y tiempos por especialidad y hospital.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=24"
+        }
+      ]
+    },
+    {
+      "id": "medicos-zonas-rurales",
+      "topic": "Sanidad",
+      "question": "¿Deberían ofrecerse incentivos para atraer y retener profesionales sanitarios en zonas rurales de difícil cobertura?",
+      "context": "Se compara incentivar la permanencia en plazas difíciles de cubrir.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 88 del PDF: Ofrecer vivienda, ayudas a movilidad y acompañamiento familiar a profesionales en zonas difíciles.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=88"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Incentivar la elección de plazas MIR, especialmente en zonas rurales.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=72"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 29 del PDF, medida 74: Incentivar a los profesionales sanitarios de centros rurales y zonas deficitarias.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "id": "salud-bucodental",
+      "topic": "Sanidad",
+      "question": "¿Debería ampliarse la atención bucodental financiada públicamente?",
+      "context": "Se compara ampliar la cartera dental; Unidas prioriza a los colectivos con mayores dificultades económicas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 71 del PDF: Incorporar prestaciones odontológicas empezando por los colectivos de mayor dificultad económica.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=71"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 29 del PDF, medida 79: Ampliar la cartera de servicios con salud bucodental gratuita.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "id": "psicologia-primaria",
+      "topic": "Sanidad",
+      "question": "¿Debería haber psicólogos clínicos en todos los centros de salud de Atención Primaria?",
+      "context": "Se compara incorporar progresivamente esa figura hasta cubrir todos los centros.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 70 del PDF: Introducir psicología clínica en Atención Primaria hasta prestar el servicio en todos los centros de salud.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=70"
+        }
+      ]
+    },
+    {
+      "id": "suicidio-prevencion",
+      "topic": "Sanidad",
+      "question": "¿Deberían reforzarse los recursos públicos para prevenir el suicidio y atender a quienes estén en riesgo?",
+      "context": "Se compara ampliar los recursos profesionales, aunque un programa propone una línea telefónica y otro una red estable en las áreas de salud.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 63 del PDF: Crear recursos estables de prevención, detección temprana y acompañamiento en todas las áreas de salud.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=63"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 25 del PDF, medida 54: Implantar una línea de atención emergente al suicidio atendida por profesionales sanitarios.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=25"
+        }
+      ]
+    },
+    {
+      "id": "ela-apoyo-asistencial",
+      "topic": "Sanidad",
+      "question": "¿Debería reforzarse la ayuda pública para los cuidados de las personas con ELA?",
+      "context": "Se compara ampliar apoyos asistenciales y económicos; las cuantías y mecanismos de financiación no son equivalentes.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 12 del PDF: Incrementar las ayudas para gastos asociados a la ELA.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=12"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 65 del PDF: Garantizar atención sanitaria y social ágil, integral y continuada desde el diagnóstico.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=65"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 73 del PDF: Aplicar las medidas de derechos y ayudas para ELA y enfermedades de alta complejidad.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=73"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Páginas 23–24 del PDF, medida 47: Cubrir mediante ayudas el coste asistencial de pacientes con ELA mientras falte financiación nacional suficiente.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=23"
+        }
+      ]
+    },
+    {
+      "id": "ambulancias-gestion-publica",
+      "topic": "Sanidad",
+      "question": "¿Debería la Junta gestionar directamente las ambulancias cuando termine la concesión actual?",
+      "context": "Se pregunta por recuperar la gestión directa del transporte sanitario terrestre, no solo por mejorar el servicio contratado.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Crear coordinación pública y asumir la gestión directa al finalizar el contrato.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=72"
+        }
+      ]
+    },
+    {
+      "id": "sanidad-universal",
+      "topic": "Sanidad",
+      "question": "¿Debería garantizarse la cobertura sanitaria a todas las personas, independientemente de su situación administrativa?",
+      "context": "La pregunta se refiere al acceso sanitario, no al reparto de otras ayudas sociales.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 72 del PDF: Garantizar cobertura sanitaria a toda la población con independencia de su situación administrativa.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=72"
+        }
+      ]
+    },
+    {
+      "id": "farmacia-rural-medicacion",
+      "topic": "Sanidad",
+      "question": "¿Debería poder recogerse medicación hospitalaria en farmacias comunitarias alejadas del hospital?",
+      "context": "Se compara facilitar la dispensación de esos medicamentos en oficinas comunitarias de zonas alejadas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 17 del PDF: Habilitar la dispensación hospitalaria en farmacias comunitarias alejadas de los hospitales.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=17"
+        }
+      ]
+    },
+    {
+      "id": "dependencia-tres-meses",
+      "topic": "Cuidados",
+      "question": "¿Debería resolverse la solicitud de dependencia en un máximo de tres meses y prestarse el servicio inmediatamente?",
+      "context": "Se compara el compromiso específico de tres meses; proponer un máximo de 180 días no se considera una oposición explícita.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 96 del PDF: Resolver en tres meses desde la solicitud y prestar el servicio inmediatamente después del dictamen.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=96"
+        }
+      ]
+    },
+    {
+      "id": "residencias-publicas",
+      "topic": "Cuidados",
+      "question": "¿Deberían ampliarse las plazas en residencias de mayores con financiación pública?",
+      "context": "Se compara aumentar plazas, sin equiparar la titularidad y gestión de todos los centros.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 97 del PDF: Crear al menos 1.000 plazas residenciales públicas más y elevar un 30% las de gestión directa del SEPAD.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=97"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 31 del PDF, medidas 87–88: Aumentar el presupuesto de residencias y el número de plazas.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=31"
+        }
+      ]
+    },
+    {
+      "id": "residencias-modelo-convivencia",
+      "topic": "Cuidados",
+      "question": "¿Deberían reformarse las residencias públicas para organizarse en unidades de convivencia más pequeñas y familiares?",
+      "context": "Se compara adaptar los centros a un modelo de cuidados centrado en la persona.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 65 del PDF: Reformar las residencias públicas creando unidades de convivencia más humanas y familiares.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=65"
+        }
+      ]
+    },
+    {
+      "id": "teleasistencia-avanzada",
+      "topic": "Cuidados",
+      "question": "¿Debería ampliarse la teleasistencia avanzada para personas mayores, dependientes o con discapacidad?",
+      "context": "Se compara reforzar este servicio de apoyo a distancia y su conexión con otros cuidados.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 65 del PDF: Reforzar la teleasistencia avanzada y conectarla con sanidad y servicios sociales.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=65"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 96 del PDF: Incluir teleasistencia avanzada en el catálogo ampliado de atención domiciliaria.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=96"
+        }
+      ]
+    },
+    {
+      "id": "renta-complementaria-imv",
+      "topic": "Servicios sociales",
+      "question": "¿Debería existir una renta autonómica garantizada que complemente el Ingreso Mínimo Vital?",
+      "context": "Se pregunta por una prestación complementaria autonómica, no por sustituir el ingreso estatal.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 64 del PDF: Desarrollar una Renta Extremeña Garantizada complementaria al Ingreso Mínimo Vital.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=64"
+        }
+      ]
+    },
+    {
+      "id": "emergencia-social",
+      "topic": "Servicios sociales",
+      "question": "¿Debería crearse un servicio de intervención urgente para emergencias sociales?",
+      "context": "Se compara una respuesta especializada a situaciones de especial vulnerabilidad.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 64 del PDF: Crear un servicio de intervención social urgente para emergencias y situaciones de vulnerabilidad.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=64"
+        }
+      ]
+    },
+    {
+      "id": "comedor-secundaria",
+      "topic": "Educación",
+      "question": "¿Deberían implantarse comedores gratuitos en los institutos públicos de la ESO?",
+      "context": "Se recoge extender el servicio a la educación secundaria pública, distinto de hacer gratuitos los comedores existentes.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 78 del PDF: Implantar progresivamente comedores gratuitos para el alumnado de ESO de titularidad pública.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=78"
+        }
+      ]
+    },
+    {
+      "id": "fp-dual",
+      "topic": "Educación",
+      "question": "¿Debería ampliarse la Formación Profesional Dual en colaboración con empresas?",
+      "context": "Se compara reforzar la formación que combina centro educativo y empresa; las garantías de remuneración y empleo varían.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 40 del PDF: Desarrollar el plan de educación profesional y reforzar la FP Dual con empresas.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=40"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 37 del PDF: Reforzar la FP Dual territorial con prácticas remuneradas y acceso a un primer empleo de calidad.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=37"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 43 del PDF, medida 131: Ampliar la FP Dual para conectar estudios y empresas y favorecer la inserción laboral.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=43"
+        }
+      ]
+    },
+    {
+      "id": "universidad-financiacion-estable",
+      "topic": "Universidad",
+      "question": "¿Debería garantizarse una financiación pública estable y plurianual para la Universidad de Extremadura?",
+      "context": "Se compara dar estabilidad a la UEx; los instrumentos concretos no son idénticos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 38 del PDF: Firmar un plan de financiación plurianual UEx 2026-2030 con financiación estructural.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=38"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 49 del PDF: Impulsar marcos estables de financiación pública para la UEx.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=49"
+        }
+      ]
+    },
+    {
+      "id": "universidad-privada-duplicidades",
+      "topic": "Universidad",
+      "question": "¿Debería impedirse que nuevas universidades privadas dupliquen titulaciones de la UEx?",
+      "context": "Se compara una condición específica para autorizar nueva oferta privada, no una prohibición total de universidades privadas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 49 del PDF: Exigir evaluación estricta y garantizar que la nueva oferta privada no duplique titulaciones de la UEx.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=49"
+        }
+      ]
+    },
+    {
+      "id": "residencias-estudiantes",
+      "topic": "Universidad",
+      "question": "¿Deberían ampliarse las residencias y alojamientos universitarios públicos?",
+      "context": "Se compara aumentar el alojamiento estudiantil, sin atribuir el mismo número de plazas a todos los partidos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 39 del PDF: Mejorar y aumentar las plazas de residencias universitarias con la universidad.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=39"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 74 del PDF: Promover 1.000 plazas de residencia para estudiantes en suelo público.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=74"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 43 del PDF, medida 135: Construir residencias públicas asequibles en todos los campus, comenzando por Cáceres y Badajoz.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=43"
+        }
+      ]
+    },
+    {
+      "id": "consentimiento-charlas",
+      "topic": "Educación",
+      "question": "¿Debería exigirse consentimiento expreso de los padres para que entidades ajenas al colegio impartan actividades en las aulas?",
+      "context": "Se compara este requisito de consentimiento para intervenciones externas, sin atribuirlo a toda actividad curricular.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 36 del PDF, medida 97: Impedir la entrada de activistas o entidades ajenas al centro sin consentimiento expreso de los padres.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=36"
+        }
+      ]
+    },
+    {
+      "id": "educacion-diferenciada",
+      "topic": "Educación",
+      "question": "¿Deberían recibir financiación pública los centros que separan al alumnado por sexo?",
+      "context": "Se pregunta por financiar la educación diferenciada en igualdad de condiciones con otros modelos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 39 del PDF, medida 112: Defender la educación diferenciada y garantizar su financiación en igualdad de condiciones.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=39"
+        }
+      ]
+    },
+    {
+      "id": "acoso-escolar",
+      "topic": "Educación",
+      "question": "¿Deberían reforzarse los protocolos contra el acoso escolar y el ciberacoso?",
+      "context": "Se compara ampliar la prevención y respuesta ante el acoso, incluidas sus formas digitales.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 32 del PDF: Crear un marco de convivencia y un canal confidencial en Rayuela para comunicar acoso y ciberacoso.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=32"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 45 del PDF: Reformular protocolos para nuevas formas de acoso, incluidas imágenes modificadas por IA.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=45"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Páginas 41–42 del PDF, medidas 125–127: Exigir protocolos específicos frente al acoso digital y nuevas formas de violencia.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=41"
+        }
+      ]
+    },
+    {
+      "id": "profesorado-rural-incentivos",
+      "topic": "Educación",
+      "question": "¿Deberían ofrecerse incentivos salariales, de vivienda y conciliación para el profesorado de la escuela rural?",
+      "context": "Se recoge un plan específico para atraer y mantener docentes en plazas rurales de difícil cobertura.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 36 del PDF: Crear incentivos retributivos, de movilidad, conciliación y vivienda para docentes rurales.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=36"
+        }
+      ]
+    },
+    {
+      "id": "carrera-profesional-docente",
+      "topic": "Educación",
+      "question": "¿Debería implantarse una carrera profesional docente con reconocimiento del desarrollo profesional?",
+      "context": "Se compara desarrollar un sistema de carrera, sin equiparar los complementos o criterios propuestos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 35 del PDF: Impulsar una carrera profesional con complementos que reconozcan excelencia, compromiso y trabajo rural.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=35"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 46 del PDF: Iniciar negociaciones para implantar la carrera profesional docente.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=46"
+        }
+      ]
+    },
+    {
+      "id": "cuota-cero-autonomas-maternidad",
+      "topic": "Empleo",
+      "question": "¿Debería financiarse durante dos años la cuota de las autónomas que vuelvan al trabajo tras maternidad, adopción o acogimiento?",
+      "context": "Se pregunta por una ayuda de reincorporación con duración concreta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 24 del PDF: Ampliar a dos años la tarifa cero para mujeres desempleadas que se reincorporen tras maternidad, adopción o acogimiento.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=24"
+        }
+      ]
+    },
+    {
+      "id": "autonomos-bajos-ingresos",
+      "topic": "Empleo",
+      "question": "¿Debería apoyarse económicamente a los autónomos cuyos ingresos no alcancen el salario mínimo?",
+      "context": "Se compara apoyar ingresos bajos; PP propone bonificar cotizaciones y Vox compensaciones.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 24 del PDF: Reducir cuotas para ingresos inferiores al SMI y bonificar a cero el segundo año de actividad.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=24"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 89 del PDF, medida 268: Compensar a autónomos cuyos ingresos netos no lleguen al SMI.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=89"
+        }
+      ]
+    },
+    {
+      "id": "cuota-familiar-colaborador",
+      "topic": "Empleo",
+      "question": "¿Debería subvencionarse la cuota de un familiar que se incorpore a trabajar en el negocio de un autónomo?",
+      "context": "Se compara financiar la cotización del familiar colaborador para favorecer continuidad y relevo.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 23 del PDF: Crear Tarifa Cero Familiar Colaborador para sufragar total o parcialmente su cotización.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=23"
+        }
+      ]
+    },
+    {
+      "id": "ia-administracion",
+      "topic": "Administración",
+      "question": "¿Debería usarse inteligencia artificial para agilizar los trámites de la Junta?",
+      "context": "Se compara el uso administrativo de IA; los programas difieren en controles, aplicaciones y garantías.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 52 del PDF: Usar IA para agilizar trámites con supervisión humana y controles éticos.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=52"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 92 del PDF, medida 283: Usar inteligencia artificial generativa para simplificar y agilizar la Administración.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=92"
+        }
+      ]
+    },
+    {
+      "id": "ia-auditable",
+      "topic": "Tecnología",
+      "question": "¿Deberían los algoritmos públicos ser auditables y estar sometidos a supervisión humana?",
+      "context": "Se pregunta por garantías específicas de uso de IA pública, no por su adopción por sí sola.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 52 del PDF: Exigir sistemas éticos, auditables y explicables y supervisión experta de los algoritmos públicos.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=52"
+        }
+      ]
+    },
+    {
+      "id": "documentos-una-vez",
+      "topic": "Administración",
+      "question": "¿Debería dejar de pedirse a la ciudadanía documentación que ya tenga otra administración?",
+      "context": "Se compara la interoperabilidad y el principio de aportar cada documento una sola vez.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 55 del PDF: Completar la interoperabilidad para no pedir documentos que ya obren en otra administración.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=55"
+        }
+      ]
+    },
+    {
+      "id": "conectividad-universal",
+      "topic": "Tecnología",
+      "question": "¿Deberían todos los municipios disponer de fibra óptica o 5G antes de 2030?",
+      "context": "Se recoge un objetivo territorial con plazo concreto.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 87 del PDF: Garantizar fibra o 5G en todos los municipios antes de 2030.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=87"
+        }
+      ]
+    },
+    {
+      "id": "bono-conectividad",
+      "topic": "Tecnología",
+      "question": "¿Debería existir un bono de conectividad para los hogares vulnerables?",
+      "context": "Se compara una ayuda para evitar la desconexión digital por falta de recursos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 53 del PDF: Crear un Bono Social de Conectividad para hogares vulnerables.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=53"
+        }
+      ]
+    },
+    {
+      "id": "transporte-demanda",
+      "topic": "Movilidad",
+      "question": "¿Debería haber transporte público a demanda coordinado con taxis rurales en municipios poco poblados?",
+      "context": "Se pregunta por un servicio flexible bajo demanda, distinto de ampliar rutas regulares.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 86 del PDF: Implantar transporte público a demanda coordinado con el taxi rural en municipios de baja densidad.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=86"
+        }
+      ]
+    },
+    {
+      "id": "tren-cercanias",
+      "topic": "Movilidad",
+      "question": "¿Debería crearse una red de trenes de cercanías que conecte las comarcas extremeñas?",
+      "context": "Se compara transformar y ampliar la red convencional con servicios de cercanías.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 52 del PDF: Desplegar una red de cercanías conectando cabeceras comarcales y capitales en tres fases.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=52"
+        }
+      ]
+    },
+    {
+      "id": "autoconsumo-renovable",
+      "topic": "Energía",
+      "question": "¿Deberían concederse ayudas para instalar autoconsumo eléctrico en viviendas y empresas?",
+      "context": "Se compara apoyar instalaciones de autoconsumo, con cuantías y destinatarios diferentes.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 62 del PDF: Incentivar autoconsumo y almacenamiento para ciudadanos y empresas.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=62"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 78 del PDF: Facilitar el autoconsumo colectivo de cooperativas y pymes.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=78"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 183 del PDF: Incentivar instalaciones domésticas y cubrir hasta el 100% en ciertos colectivos vulnerables.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=183"
+        }
+      ]
+    },
+    {
+      "id": "hidroelectricas-concesiones",
+      "topic": "Energía",
+      "question": "¿Deberían pasar a gestión pública las centrales hidroeléctricas cuando caduquen sus concesiones privadas?",
+      "context": "La propuesta actúa al vencer las concesiones, sin plantear su rescisión anticipada.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 13 del PDF: Recuperar la gestión pública de las hidroeléctricas cuyas concesiones privadas caduquen.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=13"
+        }
+      ]
+    },
+    {
+      "id": "hidrogeno-verde",
+      "topic": "Energía",
+      "question": "¿Debería impulsarse la producción de hidrógeno verde para usos industriales y de movilidad?",
+      "context": "Se compara promover proyectos de hidrógeno producido con energías renovables.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 77 del PDF: Impulsar proyectos de hidrógeno verde y sus usos industriales y de movilidad.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=77"
+        }
+      ]
+    },
+    {
+      "id": "agua-minimo-vital",
+      "topic": "Agua",
+      "question": "¿Debería garantizarse un suministro mínimo de agua a quien no pueda pagarla?",
+      "context": "Se compara asegurar un mínimo vital; Unidas cuantifica 100 litros por persona y día y PSOE no fija cantidad en esta medida.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 79 del PDF: Garantizar que todas las personas dispongan de un mínimo de agua.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=79"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 176 del PDF: Evitar cortes por impago justificado y asegurar al menos 100 litros de agua potable por persona y día.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=176"
+        }
+      ]
+    },
+    {
+      "id": "agua-remunicipalizacion",
+      "topic": "Agua",
+      "question": "¿Debería recuperarse la gestión pública de los servicios de agua privatizados?",
+      "context": "Se pregunta por apoyar la reinternalización o remunicipalización, no solo por aumentar la inversión en redes.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 175 del PDF: Recuperar servicios privatizados y apoyar operadores íntegramente públicos del ciclo del agua.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=175"
+        }
+      ]
+    },
+    {
+      "id": "grandes-embalses",
+      "topic": "Agua",
+      "question": "¿Debería frenarse la construcción de nuevos grandes embalses en Extremadura?",
+      "context": "Se pregunta por grandes embalses; no incluye depósitos ni todas las infraestructuras de abastecimiento.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 174 del PDF: Oponerse a nuevos grandes embalses por considerar que el problema es la disponibilidad de agua y no la capacidad de almacenaje.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=174"
+        }
+      ]
+    },
+    {
+      "id": "infoex-personal",
+      "topic": "Medio ambiente",
+      "question": "¿Debería reforzarse el INFOEX con más personal estable y mejores condiciones de trabajo?",
+      "context": "Se compara aumentar capacidad y estabilidad del operativo forestal.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 54 del PDF: Crear 85 plazas de bomberos forestales hasta 2027 y consolidar complementos y estructura del INFOEX.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=54"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 80 del PDF: Mejorar retribuciones y garantizar trabajo todo el año con contratos a tiempo completo.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=80"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 51 del PDF, medidas 152–153: Dotar al INFOEX de medios suficientes y estabilidad laboral y aumentar las plazas de bomberos, reservando un 20% para militares.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=51"
+        }
+      ]
+    },
+    {
+      "id": "consorcio-incendios",
+      "topic": "Medio ambiente",
+      "question": "¿Debería crearse un consorcio regional que coordine los servicios de prevención y extinción de incendios?",
+      "context": "Se compara unificar la coordinación de profesionales y servicios de emergencias en toda la región.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 79 del PDF: Crear un consorcio con centro único de coordinación para bomberos forestales, urbanos y protección civil.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=79"
+        }
+      ]
+    },
+    {
+      "id": "suelo-solar-agrario",
+      "topic": "Medio ambiente",
+      "question": "¿Debería evitarse instalar grandes plantas renovables en terrenos de alto valor agrario o natural?",
+      "context": "Se compara proteger suelos sensibles; Unidas se opone a incentivar plantas en terrenos con posibilidades agroganaderas o forestales y Vox centra su propuesta en macroproyectos especulativos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 62 del PDF: Planificar renovables sin ocupar suelos de alto valor agrario o natural.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=62"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 180 del PDF: Eliminar incentivos públicos para macroplantas sobre terrenos con aprovechamiento agrario, ganadero o forestal.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=180"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 51 del PDF, medida 150: Proteger el patrimonio natural y los suelos productivos frente a macroproyectos especulativos de energías renovables.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=51"
+        }
+      ]
+    },
+    {
+      "id": "megamineria",
+      "topic": "Medio ambiente",
+      "question": "¿Debería la Junta oponerse a los proyectos de megaminería por su impacto ambiental y social?",
+      "context": "Se pregunta por proyectos de gran minería, no por prohibir toda extracción ni el reciclaje de minerales.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 178 del PDF: Oponerse a proyectos de megaminería por su impacto ambiental y escasa rentabilidad social.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=178"
+        }
+      ]
+    },
+    {
+      "id": "paridad-institucional",
+      "topic": "Igualdad",
+      "question": "¿Debería garantizarse por ley una presencia equilibrada de mujeres en los órganos públicos autonómicos?",
+      "context": "Se compara imponer paridad institucional; la oposición de Vox se refiere explícitamente a las cuotas de género.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 30 del PDF: Aprobar una ley de paridad para órganos públicos y empresas participadas por la Junta.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=30"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 114 del PDF: Establecer la obligatoriedad de la paridad en los espacios de representación.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=114"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Página 123 del PDF, medidas 395–396: Eliminar las cuotas de género y rechazar imposiciones para acceder a responsabilidades.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=123"
+        }
+      ]
+    },
+    {
+      "id": "integracion-migrantes",
+      "topic": "Inclusión",
+      "question": "¿Debería la Junta desarrollar un plan de integración social y laboral para las personas migrantes residentes?",
+      "context": "Se compara una actuación de integración para personas residentes, sin deducir posturas a partir del debate general sobre inmigración.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 14 del PDF: Aprobar un plan de integración e inclusión social y laboral para migrantes residentes en Extremadura.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=14"
+        }
+      ]
+    },
+    {
+      "id": "cultura-acceso",
+      "topic": "Cultura",
+      "question": "¿Debería aprobarse una ley que garantice el acceso a la cultura en igualdad de condiciones?",
+      "context": "Se pregunta por reconocer y desarrollar derechos culturales mediante legislación autonómica.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 92 del PDF: Aprobar una Ley de Derechos Culturales con acceso igualitario a producción y participación cultural.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=92"
+        }
+      ]
+    },
+    {
+      "id": "proteccion-animal-ayudas",
+      "topic": "Bienestar animal",
+      "question": "¿Debería la Junta financiar a las asociaciones de protección animal?",
+      "context": "Se compara conceder subvenciones a entidades de protección animal que actúen en la comunidad.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 156 del PDF: Convocar subvenciones para asociaciones de protección animal con actividad en Extremadura.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=156"
+        }
+      ]
+    },
+    {
+      "id": "relevo-generacional-agrario",
+      "topic": "Agricultura",
+      "question": "¿Debería apoyarse la incorporación de jóvenes a la agricultura y la ganadería?",
+      "context": "Se compara ayudar al relevo generacional con formación, financiación o cesión de explotaciones, sin equiparar las ayudas concretas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 48 del PDF: Acompañar a jóvenes y familias en el traspaso de explotaciones con asesoramiento y ayudas.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=48"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 81 del PDF: Facilitar a jóvenes el acceso a tierra, crédito y formación mediante cesiones de explotaciones.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=81"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 17 del PDF: Garantizar una renta de incorporación para jóvenes agricultores y ganaderos.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=17"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 64 del PDF, medida 200: Apoyar la incorporación y permanencia de jóvenes en explotaciones y cooperativas agroalimentarias.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=64"
+        }
+      ]
+    },
+    {
+      "id": "eficiencia-regadios",
+      "topic": "Agricultura",
+      "question": "¿Deberían modernizarse los sistemas de riego para consumir menos agua?",
+      "context": "Se compara mejorar la eficiencia de los regadíos existentes, independientemente de la postura sobre crear nuevos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "unidas",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 50 del PDF: Modernizar y mejorar la eficiencia del consumo con las comunidades de regantes.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=50"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 79 del PDF: Ayudar a las comunidades de regantes a mejorar gestión, eficiencia y sostenibilidad.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=79"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 18 del PDF: Apoyar la mejora de eficiencia de los sistemas de riego y revisar las asignaciones de agua.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=18"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 63 del PDF, medida 197: Impulsar un Plan Nacional de Regadíos que modernice las superficies, mejore la eficiencia del agua y reduzca su consumo.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=63"
+        }
+      ]
+    },
+    {
+      "id": "ley-agricultura-familiar",
+      "topic": "Agricultura",
+      "question": "¿Debería aprobarse una ley específica de apoyo a la agricultura familiar?",
+      "context": "Se compara legislar para las explotaciones profesionales y familiares, sin equiparar su contenido concreto.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 21 del PDF: Aprobar una ley para viabilidad, relevo e innovación en explotaciones pequeñas y medianas.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=21"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 17 del PDF: Poner en marcha una ley que apoye la agricultura profesional, familiar, social y sostenible.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=17"
+        }
+      ]
+    },
+    {
+      "id": "transformacion-agroalimentaria",
+      "topic": "Economía",
+      "question": "¿Debería apoyarse la transformación de productos agroalimentarios dentro de Extremadura?",
+      "context": "Se compara generar valor añadido local mediante industria agroalimentaria.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 48 del PDF: Impulsar la industria agroalimentaria extremeña para innovar, modernizarse y generar empleo.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=48"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 22 del PDF: Ayudar a la transformación local, certificación y apertura de mercados de productos agroalimentarios.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=22"
+        }
+      ]
+    },
+    {
+      "id": "compra-publica-productos-locales",
+      "topic": "Agricultura",
+      "question": "¿Deberían las compras de alimentos de escuelas y otros servicios públicos favorecer los productos locales?",
+      "context": "Se compara usar compras y programas públicos para apoyar la producción alimentaria de proximidad.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 22 del PDF: Impulsar compra pública de proximidad e introducir un mínimo de productos extremeños en escuelas, hospitales y residencias.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=22"
+        },
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 18 del PDF: Orientar los programas de fruta, verdura y leche escolares hacia la producción local y sostenible.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=18"
+        }
+      ]
+    },
+    {
+      "id": "renta-jovenes-agrarios",
+      "topic": "Agricultura",
+      "question": "¿Deberían los jóvenes que se incorporen al campo recibir durante dos años una renta equivalente al salario mínimo?",
+      "context": "Se pregunta por una renta temporal concreta, distinta de otras subvenciones a la instalación.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 17 del PDF: Garantizar una renta equivalente al SMI durante dos años a jóvenes que inicien actividad agrícola o ganadera.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=17"
+        }
+      ]
+    },
+    {
+      "id": "turismo-cinegetico",
+      "topic": "Mundo rural",
+      "question": "¿Debería promoverse el turismo de caza como actividad económica rural?",
+      "context": "Se compara impulsar turismo cinegético, sin atribuir a los programas idénticos criterios de sostenibilidad.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 83 del PDF: Impulsar turismo cinegético sostenible.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=83"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Página 53 del PDF, medida 165: Promocionar el turismo cinegético y apoyar rehalas y arrieros.",
+          "href": "/programas/extremadura_2025/programa_vox_extremadura_2025.pdf#page=53"
+        }
+      ]
+    },
+    {
+      "id": "subvenciones-espectaculos-animales",
+      "topic": "Bienestar animal",
+      "question": "¿Deberían eliminarse las subvenciones a espectáculos que utilicen violencia contra animales?",
+      "context": "Se recoge la eliminación de esas subvenciones, sin deducir posturas de otros partidos por su apoyo genérico a tradiciones rurales.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "unidas"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "unidas",
+          "position": "yes",
+          "reference": "Página 156 del PDF: Eliminar subvenciones a espectáculos que utilicen violencia contra animales.",
+          "href": "/programas/extremadura_2025/programa_unidas_por_extremadura_2025.pdf#page=156"
+        }
+      ]
+    },
+    {
+      "id": "caminos-rurales",
+      "topic": "Mundo rural",
+      "question": "¿Debería ampliarse la inversión pública en caminos rurales para conectar pueblos y mejorar las vías de evacuación?",
+      "context": "Se pregunta por mejorar la red rural y crear alternativas de evacuación.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Página 57 del PDF: Ejecutar mejoras de caminos y un plan que conecte núcleos rurales con doble vía de evacuación.",
+          "href": "/programas/extremadura_2025/programa_pp_extremadura_2025.pdf#page=57"
+        }
+      ]
+    },
+    {
+      "id": "fondo-rescate-agrario",
+      "topic": "Agricultura",
+      "question": "¿Debería crearse un fondo de rescate para explotaciones agrarias afectadas por heladas, sequías o inundaciones?",
+      "context": "Se compara una reserva presupuestaria específica para contingencias climáticas en el campo.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Página 81 del PDF: Crear un fondo de rescate de 40 millones de euros para contingencias derivadas de la emergencia climática.",
+          "href": "/programas/extremadura_2025/programa_psoe_extremadura_2025.pdf#page=81"
+        }
+      ]
+    }
+  ]
+}

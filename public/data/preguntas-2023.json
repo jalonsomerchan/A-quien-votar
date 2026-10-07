@@ -1,0 +1,3607 @@
+{
+  "year": 2023,
+  "election": "Elecciones generales de España",
+  "parties": [
+    {
+      "id": "ehbildu",
+      "name": "EH Bildu",
+      "area": "País Vasco y Navarra",
+      "color": "#d84b43",
+      "logo": "/logos/partidos/ehbildu.svg"
+    },
+    {
+      "id": "bng",
+      "name": "BNG",
+      "area": "Galicia",
+      "color": "#1b7e8a",
+      "logo": "/logos/partidos/bng.svg"
+    },
+    {
+      "id": "erc",
+      "name": "ERC",
+      "area": "Cataluña",
+      "color": "#f3a52f",
+      "logo": "/logos/partidos/erc.svg"
+    },
+    {
+      "id": "pacma",
+      "name": "PACMA",
+      "area": "Estatal",
+      "color": "#54a56d",
+      "logo": "/logos/partidos/pacma.svg"
+    },
+    {
+      "id": "pnv",
+      "name": "EAJ-PNV",
+      "area": "País Vasco",
+      "color": "#4d9c61",
+      "logo": "/logos/partidos/pnv.svg"
+    },
+    {
+      "id": "pp",
+      "name": "PP",
+      "area": "Estatal",
+      "color": "#3e7bc1",
+      "logo": "/logos/partidos/pp.svg"
+    },
+    {
+      "id": "psoe",
+      "name": "PSOE",
+      "area": "Estatal",
+      "color": "#e65363",
+      "logo": "/logos/partidos/psoe.svg"
+    },
+    {
+      "id": "sumar",
+      "name": "Sumar",
+      "area": "Estatal",
+      "color": "#9b61ad",
+      "logo": "/logos/partidos/sumar.svg"
+    },
+    {
+      "id": "vox",
+      "name": "Vox",
+      "area": "Estatal",
+      "color": "#6e9d48",
+      "logo": "/logos/partidos/vox.svg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "rental-prices",
+      "topic": "Vivienda",
+      "question": "En las zonas donde alquilar es muy caro, ¿se debería poder limitar el precio?",
+      "context": "Se cuentan los programas que proponen topes o precios de referencia en zonas con alquileres tensionados.",
+      "yesParties": [
+        "ehbildu",
+        "erc",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Vivienda: limitar los alquileres y declarar zonas tensionadas.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Vivienda: limitar los precios del alquiler.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Vivienda: aplicar límites al alquiler en zonas tensionadas.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Vivienda: regular precios de referencia en zonas tensionadas.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Vivienda: derogar la Ley de Vivienda y rechazar el control de precios del alquiler.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "tourist-rentals",
+      "topic": "Vivienda",
+      "question": "¿Deberían poder limitarse los pisos turísticos en los barrios donde falten viviendas para vivir?",
+      "context": "Se cuenta el apoyo explícito a regular las viviendas de uso turístico para proteger el acceso a la vivienda.",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Vivienda y turismo: regular el parque de viviendas turísticas en las ciudades y limitar plazas según el impacto en el vecindario.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "public-housing",
+      "topic": "Vivienda",
+      "question": "¿Debería ampliarse el parque de viviendas públicas y sociales?",
+      "context": "Se cuentan propuestas concretas para aumentar las viviendas públicas o sociales, especialmente en alquiler.",
+      "yesParties": [
+        "bng",
+        "pacma",
+        "pnv",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Vivienda: utilizar patrimonio público y movilizar viviendas vacías para ampliar la oferta social.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Vivienda: crear un parque amplio de vivienda social para compra y alquiler.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Vivienda: promover vivienda pública suficiente, en especial de alquiler.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Vivienda: ampliar el parque público, con el objetivo de alcanzar el 20%.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Vivienda: financiar un parque amplio de vivienda pública o protegida.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "wealth-tax",
+      "topic": "Impuestos",
+      "question": "¿Las personas con patrimonios muy altos deberían pagar un impuesto específico y permanente?",
+      "context": "Se cuentan los programas que proponen mantener o crear impuestos dirigidos a las grandes fortunas y los que plantean suprimirlos.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "sumar"
+      ],
+      "noParties": [
+        "pp",
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Fiscalidad: hacer permanentes los impuestos a las grandes fortunas.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Fiscalidad: elevar la contribución de las grandes fortunas.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Fiscalidad: consolidar el impuesto a las grandes fortunas.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Fiscalidad: establecer de forma permanente un impuesto a las grandes fortunas.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "pp",
+          "position": "no",
+          "reference": "Fiscalidad: eliminar el impuesto a las grandes fortunas.",
+          "href": "/programas/2023/programa_electoral_pp.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Fiscalidad: suprimir el impuesto sobre el patrimonio.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "windfall-tax",
+      "topic": "Impuestos",
+      "question": "¿Los bancos y las eléctricas deberían pagar un impuesto extra cuando tienen grandes beneficios?",
+      "context": "Se cuentan propuestas de gravar los beneficios extraordinarios de estos sectores y la oposición expresa a esos impuestos.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "sumar"
+      ],
+      "noParties": [
+        "pp"
+      ],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Fiscalidad: convertir en permanentes los impuestos a la banca y las empresas energéticas.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Fiscalidad: aplicar impuestos a la banca y a las empresas energéticas.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Fiscalidad: consolidar los impuestos sobre beneficios extraordinarios de la banca y las energéticas.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Fiscalidad: mantener gravámenes sobre los beneficios extraordinarios de la banca y las energéticas.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "pp",
+          "position": "no",
+          "reference": "Fiscalidad: eliminar los impuestos temporales a la banca y a las empresas energéticas.",
+          "href": "/programas/2023/programa_electoral_pp.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "shorter-workweek",
+      "topic": "Trabajo",
+      "question": "¿Debería reducirse la jornada laboral sin bajar el sueldo?",
+      "context": "Se cuentan propuestas expresas para trabajar menos horas manteniendo el salario.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Trabajo: reducir la jornada hasta 32 horas semanales sin bajar el salario.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Trabajo: implantar una jornada de 35 horas sin reducción salarial.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Trabajo: impulsar medidas como la semana laboral de cuatro días.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Trabajo: probar reducciones de jornada sin merma salarial.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Trabajo: fijar 37,5 horas y seguir reduciendo la jornada hasta 32.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "minimum-wage",
+      "topic": "Trabajo",
+      "question": "¿El salario mínimo debería llegar al menos al 60% del salario medio?",
+      "context": "Se cuentan las propuestas que mencionan expresamente ese objetivo para el salario mínimo.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Trabajo: situar el salario mínimo vasco y navarro en el 60% del salario medio.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Trabajo: llevar el salario mínimo al 60% del salario medio.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Trabajo: acompasar el SMI al 60% del salario medio.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Trabajo: mantener la subida del SMI y señala el 60% del salario medio como referencia alcanzada.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "defense-spending",
+      "topic": "Defensa",
+      "question": "¿Debería España aumentar el presupuesto destinado a Defensa?",
+      "context": "Se cuentan los programas que proponen aumentar el gasto militar y los que rechazan expresamente esa subida.",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "vox"
+      ],
+      "noParties": [
+        "bng",
+        "erc"
+      ],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Defensa: reforzar la inversión y modernización de las Fuerzas Armadas.",
+          "href": "/programas/2023/programa_electoral_pp.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Defensa: aumentar el presupuesto para modernizar las Fuerzas Armadas.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Defensa: aumentar la inversión y los programas de modernización militar.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "no",
+          "reference": "Defensa: rechazar el aumento desmedido del gasto militar y dedicar recursos a servicios públicos.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "no",
+          "reference": "Defensa: reducir el gasto militar y limitar la exportación de armas.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "public-dentistry",
+      "topic": "Sanidad",
+      "question": "¿La sanidad pública debería cubrir tratamientos dentales básicos?",
+      "context": "Se cuentan los programas que proponen incluir la atención dental dentro de los servicios sanitarios públicos.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "pacma",
+        "sumar",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Sanidad: incluir servicios dentales básicos en la cartera pública.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Sanidad: ampliar la cartera pública con asistencia odontológica.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Sanidad: mejorar la cobertura pública de salud bucodental.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Sanidad: incorporar la salud bucodental a la cartera pública.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Sanidad: incluir prestaciones de salud bucodental en la cartera de servicios.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "public-abortion",
+      "topic": "Derechos y salud",
+      "question": "¿El acceso al aborto debería estar garantizado en la sanidad pública?",
+      "context": "Se comparan las propuestas para garantizar el acceso efectivo con la propuesta de derogar el derecho vigente.",
+      "yesParties": [
+        "erc",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Derechos de las mujeres: garantizar la aplicación de la ley y el acceso al aborto.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Igualdad: defender el derecho al aborto y su acceso efectivo.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Salud sexual y reproductiva: garantizar el acceso público en todo el territorio.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Sanidad y familia: derogar la ley del aborto y retirar esta prestación de la sanidad pública.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "euthanasia",
+      "topic": "Derechos y salud",
+      "question": "¿Debería seguir siendo legal la eutanasia para quien la solicite?",
+      "context": "Se cuentan las propuestas de mantener o derogar la ley de eutanasia; revisar la ley sin pedir su derogación no se toma como un “no”.",
+      "yesParties": [
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Sanidad: defender la Ley de Eutanasia aprobada durante la legislatura.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Cuidados: reconocer el derecho a una muerte digna según la Ley de Eutanasia.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Familia y dignidad humana: derogar la Ley de Eutanasia.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "lgbti-rights",
+      "topic": "Igualdad",
+      "question": "¿El Estado debería mantener las leyes que protegen los derechos de las personas LGTBI+?",
+      "context": "Se cuentan los programas que defienden estas protecciones y el que propone derogar la ley estatal.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "pacma",
+        "pnv",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Igualdad: defender los derechos y avances de las personas LGTBIQ+.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Igualdad: ampliar las garantías y la protección de las personas LGBT.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Igualdad: garantizar derechos y combatir la discriminación LGTBI.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Igualdad: reforzar los derechos y la protección frente a la discriminación.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Igualdad: defender los derechos LGTBI y la legislación aprobada.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Igualdad: aplicar y ampliar la protección de la Ley LGTBI.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Igualdad: desarrollar los derechos y libertades LGTBI+.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Igualdad: derogar la Ley LGTBI.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "trans-rights",
+      "topic": "Igualdad",
+      "question": "¿La ley debería permitir que las personas trans sean reconocidas legalmente según su identidad de género?",
+      "context": "Se cuentan las propuestas de desarrollar o defender ese reconocimiento legal y la propuesta de derogar la Ley Trans.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "pacma",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Igualdad: defender los derechos y la identidad de género de las personas trans.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Igualdad: garantizar derechos y atención a las personas trans.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Igualdad: garantizar la identidad y expresión de género.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Igualdad: apoyar las demandas de las personas trans y combatir la discriminación.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Igualdad: defender la Ley Trans y el reconocimiento legal de la identidad de género.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Igualdad: desarrollar los derechos de las personas trans.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Igualdad: derogar la Ley Trans y rechazar la autodeterminación de género.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "early-education",
+      "topic": "Educación",
+      "question": "¿Debería ampliarse la oferta pública de educación infantil de 0 a 3 años?",
+      "context": "Se cuentan las propuestas de universalizar o ampliar las plazas públicas de esta etapa.",
+      "yesParties": [
+        "pacma",
+        "pp",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Educación: promover educación universal de 0 a 3 años.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Educación: hacer universal y gratuita la educación de 0 a 3 años.",
+          "href": "/programas/2023/programa_electoral_pp.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Educación: ampliar las plazas de educación infantil de 0 a 3 años.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Educación: asegurar plazas públicas gratuitas y de calidad de 0 a 3 años.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "coofficial-languages",
+      "topic": "Lenguas",
+      "question": "¿Deberían tener más presencia el catalán, el euskera y el gallego en las instituciones estatales y europeas?",
+      "context": "Se cuentan las propuestas que piden un uso más amplio de estas lenguas en administraciones estatales o instituciones europeas.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "pnv",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Lenguas: reclamar respeto y presencia para todas las lenguas propias del Estado.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Lenguas: normalizar el gallego en los ámbitos de la Administración del Estado.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Lenguas: ampliar el uso del catalán en las instituciones estatales.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Lenguas: impulsar el euskera, catalán y gallego en instituciones estatales y europeas.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Lenguas: garantizar el uso efectivo de las lenguas cooficiales en la Administración General del Estado y la justicia.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "territorial-choice",
+      "topic": "Modelo territorial",
+      "question": "¿Las comunidades deberían poder decidir democráticamente su futuro político?",
+      "context": "Se cuentan propuestas expresas de derecho a decidir, autodeterminación o consulta sobre el futuro político.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "pnv"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Modelo territorial: reconocer el derecho a decidir.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Modelo territorial: permitir que Galicia decida su futuro político.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Modelo territorial: negociar un referéndum de autodeterminación en Cataluña.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Modelo territorial: defender el derecho a decidir el futuro de Euskadi.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Unidad de España: reforzar las penas por convocar referéndums y defender la unidad nacional.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "historical-memory",
+      "topic": "Memoria democrática",
+      "question": "¿El Estado debería ampliar las políticas para encontrar y reparar a las víctimas de la dictadura?",
+      "context": "Se cuentan las propuestas para ampliar o aplicar políticas de verdad, justicia y reparación y la propuesta de derogar la ley.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "pnv",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Memoria: ampliar las garantías de reconocimiento, justicia y reparación.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Memoria: denunciar que la ley vigente no garantiza justicia para las víctimas del franquismo.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Memoria: garantizar verdad, justicia y reparación para las víctimas.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Memoria: aplicar las leyes y garantizar verdad, memoria, justicia y reparación.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Memoria: defender la Ley de Memoria Democrática y sus principios de verdad, justicia y reparación.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Memoria: desarrollar y reforzar los derechos de verdad, justicia y reparación.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Memoria: derogar la Ley de Memoria Democrática.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "voting-age-16",
+      "topic": "Democracia",
+      "question": "¿Se debería poder votar en las elecciones a partir de los 16 años?",
+      "context": "Solo se incluyen partidos que proponen expresamente bajar la edad de voto.",
+      "yesParties": [
+        "erc"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Democracia y juventud: ampliar el derecho a voto a las personas de 16 y 17 años.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "migrant-regularization",
+      "topic": "Migración",
+      "question": "¿Las personas migrantes que ya viven aquí deberían poder poner en regla sus papeles?",
+      "context": "Se cuentan propuestas de facilitar una regularización administrativa o permanente frente a las de expulsión de personas en situación irregular.",
+      "yesParties": [
+        "bng",
+        "erc",
+        "sumar"
+      ],
+      "noParties": [
+        "pp",
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Migración: facilitar los procesos de regularización administrativa.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Migración: regularizar la situación laboral y de residencia.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Migración: crear un procedimiento permanente de regularización.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "pp",
+          "position": "no",
+          "reference": "Migración: agilizar las órdenes de retorno de inmigrantes en situación irregular.",
+          "href": "/programas/2023/programa_electoral_pp.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Migración: expulsar a quienes entren de forma irregular.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "end-hot-returns",
+      "topic": "Migración",
+      "question": "¿Deberían terminar las devoluciones inmediatas de personas en las fronteras?",
+      "context": "Se cuentan las propuestas que piden acabar con las devoluciones en caliente o las devoluciones sumarias.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Migración: exigir el fin de las devoluciones en caliente.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Derechos y seguridad: prohibir las devoluciones en caliente.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Seguridad: eliminar las devoluciones en caliente.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Migración: abandonar las devoluciones sumarias.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "nuclear-extension",
+      "topic": "Energía",
+      "question": "¿Las centrales nucleares actuales deberían funcionar durante más años?",
+      "context": "Se comparan las propuestas de alargar la vida de las centrales con las de mantener su cierre progresivo.",
+      "yesParties": [
+        "pp",
+        "vox"
+      ],
+      "noParties": [
+        "pacma",
+        "sumar"
+      ],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Energía: extender la vida útil de las centrales nucleares existentes.",
+          "href": "/programas/2023/programa_electoral_pp.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Energía: promover la extensión de la vida útil de las centrales existentes.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "no",
+          "reference": "Energía: rechazar el modelo basado en energía nuclear.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "no",
+          "reference": "Energía: mantener el calendario de cierre del parque nuclear.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "renewable-transition",
+      "topic": "Energía",
+      "question": "¿Deberíamos ir sustituyendo el gas, el petróleo y el carbón por energías renovables?",
+      "context": "Se cuentan propuestas de acelerar las energías renovables y reducir la dependencia de combustibles fósiles.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "pacma",
+        "pnv",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Energía: reforzar la generación renovable con nuevas inversiones.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Energía: impulsar una transición energética justa y renovable.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Energía: avanzar hacia un modelo energético 100% renovable.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Energía: impulsar renovables frente a la dependencia de combustibles fósiles.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Energía: acelerar el despliegue renovable para desplazar combustibles fósiles.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Energía: avanzar hacia una España autónoma basada en energía 100% renovable.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Energía: desarrollar un sistema energético renovable y descarbonizado.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "combustion-cars",
+      "topic": "Transporte y clima",
+      "question": "¿España debería dejar de vender coches nuevos de gasolina y diésel?",
+      "context": "Se cuentan propuestas expresas para dejar atrás los motores de combustión y la oposición a prohibirlos.",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Movilidad: fija como objetivo que en 2040 no circulen vehículos con motores de combustión.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Industria: pide suspender la prohibición europea del motor de combustión para 2035.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "normal"
+    },
+    {
+      "id": "public-transport-discounts",
+      "topic": "Transporte y clima",
+      "question": "¿Deberían ampliarse las ayudas y descuentos para usar el transporte público?",
+      "context": "Se cuentan medidas concretas para hacer el transporte público gratuito o más asequible.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Transporte: hacer permanentes la gratuidad y los descuentos actuales.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Transporte: bonificar los viajes de jóvenes en autobús y ferrocarril.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Transporte: ampliar descuentos y gratuidad para niños y estudiantes.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Transporte: ofrecer gratuidad en los servicios rurales de viajeros.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "rail-investment",
+      "topic": "Transporte",
+      "question": "¿Debería invertirse más en trenes y cercanías?",
+      "context": "Se cuentan propuestas expresas de ampliar o modernizar la red ferroviaria y los servicios de cercanías.",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "pnv",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Transporte: aumentar inversiones para modernizar trenes y ampliar horarios.",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Infraestructuras: modernizar la red ferroviaria y mejorar los servicios.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Transporte: corregir el déficit de inversión en Rodalies y ampliar el corredor mediterráneo.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Transporte: impulsar las infraestructuras ferroviarias y los servicios de cercanías.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Transporte: priorizar el ferrocarril y reforzar cercanías y Rodalies.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Movilidad: apostar decididamente por el ferrocarril y los servicios públicos de transporte.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "bullfighting",
+      "topic": "Bienestar animal",
+      "question": "¿Debería prohibirse la tauromaquia?",
+      "context": "Para responder a favor, el programa tiene que pedir la abolición o prohibición de los espectáculos taurinos; retirar subvenciones no basta.",
+      "yesParties": [
+        "erc",
+        "pacma"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Bienestar animal: insistir en la abolición de las corridas de toros.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Bienestar animal: prohibir corridas y festejos con animales.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Cultura: apoyar las fiestas y tradiciones taurinas.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "rapido"
+    },
+    {
+      "id": "hunting",
+      "topic": "Bienestar animal",
+      "question": "¿Debería prohibirse la caza deportiva?",
+      "context": "Se cuentan la oposición expresa a la caza y la defensa expresa de esta actividad.",
+      "yesParties": [
+        "pacma"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Bienestar animal: oponerse a la caza y pedir su prohibición.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Campo y medio ambiente: defender la caza como actividad esencial.",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "cetacean-shows",
+      "topic": "Bienestar animal",
+      "question": "¿Deberían desaparecer los espectáculos con delfines y otros cetáceos?",
+      "context": "Se cuentan propuestas para acabar con la cautividad y los espectáculos de cetáceos.",
+      "yesParties": [
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Animales: terminar con zoológicos, acuarios y espectáculos acuáticos.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Animales: acabar progresivamente con la cautividad y los espectáculos de cetáceos.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "intensive-farming",
+      "topic": "Agricultura y animales",
+      "question": "¿Se debería reducir la cría de animales en granjas industriales muy grandes?",
+      "context": "Se cuentan propuestas para reducir la ganadería intensiva o las macrogranjas.",
+      "yesParties": [
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Medio ambiente y animales: oponerse a las macrogranjas.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Transición ecológica: desincentivar la ganadería intensiva.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "fur-farms",
+      "topic": "Bienestar animal",
+      "question": "¿Deberían prohibirse las granjas que crían animales por su piel?",
+      "context": "Se incluye la propuesta expresa de prohibir la cría de animales para fabricar pieles.",
+      "yesParties": [
+        "pacma"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Animales: prohibir las granjas peleteras.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "sustainable-agriculture",
+      "topic": "Campo y alimentación",
+      "question": "¿Debería apoyarse una agricultura más sostenible y de proximidad?",
+      "context": "Se cuentan programas con medidas expresas para impulsar producción sostenible, local o de proximidad.",
+      "yesParties": [
+        "bng",
+        "erc",
+        "pacma",
+        "pnv",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Campo: impulsar un sector agrario sostenible y una alimentación de proximidad.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Campo: promover agricultura sostenible y producción alimentaria de proximidad.",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Agricultura: impulsar un modelo de producción sostenible.",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Campo: avanzar en sostenibilidad y relevo generacional en el sector primario.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Mundo rural: apoyar una agricultura sostenible y alimentos de proximidad.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "fracking-ban",
+      "topic": "Medio ambiente",
+      "question": "¿Debería seguir prohibida la extracción de gas y petróleo inyectando agua a presión (fracking)?",
+      "context": "El fracking consiste en inyectar agua a presión para extraer gas o petróleo; se cuenta la postura expresa sobre mantener su prohibición.",
+      "yesParties": [
+        "bng"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Energía: mantener la prohibición del fracking por sus riesgos para el medio y la salud.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "pension-indexation",
+      "topic": "Pensiones",
+      "question": "¿Las pensiones deberían actualizarse cada año según la inflación?",
+      "context": "Se cuentan propuestas expresas de revalorizar las pensiones conforme al IPC.",
+      "yesParties": [
+        "bng",
+        "pnv",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Pensiones: revalorizar cada año según el IPC real.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Pensiones: mantener la revalorización conforme al IPC.",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Pensiones: mantener su poder adquisitivo con revalorizaciones frente a la inflación.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Pensiones: mantener la actualización automática según el IPC.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "dependency-care",
+      "topic": "Cuidados",
+      "question": "¿Deberían reforzarse los servicios públicos para cuidar a personas mayores o que necesitan ayuda diaria?",
+      "context": "Se cuentan propuestas de ampliar o financiar mejor los servicios públicos de cuidados y atención a la dependencia.",
+      "yesParties": [
+        "bng",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Cuidados: garantizar los derechos de las personas mayores y dependientes y financiar la atención.",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Cuidados: ampliar los servicios públicos y profesionales de atención a la dependencia.",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Cuidados: crear empleo público y ampliar la atención a la dependencia y ayuda a domicilio.",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ],
+      "testLevel": "extenso"
+    },
+    {
+      "id": "minimum-pensions-rise",
+      "topic": "Pensiones",
+      "question": "¿Deben subir las pensiones mínimas para que las personas mayores tengan ingresos suficientes?",
+      "context": "Se cuentan propuestas explícitas para aumentar las pensiones mínimas o no contributivas. Los programas que no concretan una subida no se puntúan.",
+      "testLevel": "normal",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Pensiones: aumentar las mínimas hasta 1.080 € y reforzar las no contributivas (p. 5).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone subir las pensiones mínimas hasta el 60 % del salario medio (pp. 6 y 18).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Se compromete a aumentar el importe de las pensiones mínimas (p. 166).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Subir las pensiones mínimas y no contributivas por encima del IPC (p. 15).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "unemployment-benefit-coverage",
+      "topic": "Paro y ayudas",
+      "question": "¿Deberían ampliarse las ayudas para que más personas en paro reciban protección?",
+      "context": "Se cuentan propuestas para ampliar la cobertura, duración o acceso a ayudas económicas por desempleo.",
+      "testLevel": "normal",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "pnv",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone ampliar el acceso al IMV y actualizar el IPREM, que sirve de referencia para ayudas y desempleo (p. 7).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone reforzar el servicio público de empleo y cubrir a todas las personas sin ocupación (p. 17).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Propone ampliar la cobertura por desempleo hasta un máximo de 36 meses (p. 31).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone reformar las prestaciones, incluidas las de desempleo, para proteger a todas las personas que lo necesiten (p. 34).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dismissal-compensation-45-days",
+      "topic": "Trabajo",
+      "question": "¿Deberían volver los 45 días de indemnización por año cuando un despido sea injustificado?",
+      "context": "Se cuentan programas que proponen recuperar expresamente la indemnización de 45 días por despido improcedente.",
+      "testLevel": "normal",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Empleo y derechos laborales: recuperar la indemnización por despido de 45 días (p. 3).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone recuperar los 45 días de indemnización por despido improcedente (p. 16).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone recuperar la indemnización de hasta 45 días por despido injustificado (p. 91).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        }
+      ]
+    },
+    {
+      "id": "paid-work-practices",
+      "topic": "Trabajo y juventud",
+      "question": "¿Deberían pagarse las prácticas laborales en empresas y cotizar a la Seguridad Social?",
+      "context": "Se cuentan propuestas explícitas para remunerar las prácticas y darles protección de Seguridad Social.",
+      "testLevel": "normal",
+      "yesParties": [
+        "erc",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone que todas las prácticas sean remuneradas y den derecho a prestaciones y Seguridad Social (p. 52).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone prácticas de empresa para jóvenes desempleados con salario mínimo y Seguridad Social cubiertos (p. 26).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        }
+      ]
+    },
+    {
+      "id": "collective-dismissal-approval",
+      "topic": "Trabajo",
+      "question": "¿Debería una empresa pedir autorización laboral antes de despedir a muchas personas a la vez?",
+      "context": "Se cuentan propuestas para exigir autorización administrativa previa a los despidos colectivos.",
+      "testLevel": "normal",
+      "yesParties": [
+        "bng",
+        "erc"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone recuperar la autorización administrativa en los despidos colectivos (p. 16).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone restablecer la autorización administrativa previa para despidos colectivos (p. 91).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        }
+      ]
+    },
+    {
+      "id": "repay-aid-after-relocation",
+      "topic": "Empresas y empleo",
+      "question": "Si una empresa recibe ayudas públicas y después traslada su producción fuera, ¿debería devolverlas?",
+      "context": "Se cuentan propuestas explícitas para recuperar ayudas públicas concedidas a empresas que deslocalizan la producción.",
+      "testLevel": "normal",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone exigir la devolución de ayudas públicas a empresas que deslocalicen la producción (p. 8).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone obligar a devolver subvenciones y bonificaciones a empresas que deslocalicen (p. 42).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone devolver a las arcas públicas las ayudas concedidas a empresas que deslocalicen centros de trabajo (p. 91).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        }
+      ]
+    },
+    {
+      "id": "affordable-basic-food",
+      "topic": "Economía y alimentación",
+      "question": "¿Debería intervenirse más para que los alimentos básicos tengan precios asequibles?",
+      "context": "Se cuentan propuestas para contener los precios de los alimentos o facilitar productos básicos a precios bonificados.",
+      "testLevel": "normal",
+      "yesParties": [
+        "ehbildu",
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone más control de la cadena alimentaria y ampliar los descuentos en productos básicos (p. 5).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone economatos y acuerdos con grandes cadenas para ofrecer alimentos a precios bonificados según la renta (p. 48).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone una cesta de la compra básica, variada y de calidad, a precios asequibles (p. 9).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "public-electricity-company",
+      "topic": "Energía y economía",
+      "question": "¿Debería haber una empresa pública de energía para ayudar a ofrecer electricidad a buen precio?",
+      "context": "Se cuentan propuestas de crear o ampliar empresas públicas en la generación o comercialización de electricidad.",
+      "testLevel": "normal",
+      "yesParties": [
+        "ehbildu",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone facilitar la creación de comercializadoras públicas de electricidad (p. 9).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone crear una empresa pública de energía y asumir la gestión de centrales hidroeléctricas al vencer sus concesiones (p. 13).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "keep-regional-public-tv",
+      "topic": "Televisión pública",
+      "question": "¿Deberían mantenerse las televisiones públicas autonómicas?",
+      "context": "Se cuenta el apoyo explícito a mantener o reforzar medios públicos audiovisuales de las comunidades; cerrar estas televisiones cuenta como postura contraria.",
+      "testLevel": "normal",
+      "yesParties": [
+        "bng",
+        "erc",
+        "pnv"
+      ],
+      "noParties": [
+        "vox"
+      ],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone mantener y ampliar la presencia de la lengua y los contenidos gallegos en RTVE y en medios públicos (p. 60).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone reforzar las radiotelevisiones públicas de los territorios de habla catalana (p. 125).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Defiende el modelo de EITB y exige presencia del euskera en las plataformas televisivas (pp. 3 y 8).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "no",
+          "reference": "Propone cerrar las televisiones autonómicas y sustituirlas por delegaciones territoriales de RTVE (p. 84).",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ]
+    },
+    {
+      "id": "low-income-self-employed-contributions",
+      "topic": "Autónomos y economía",
+      "question": "¿Deberían pagar menos cuotas los autónomos que ganan poco?",
+      "context": "Se cuentan propuestas para reducir o bonificar las cotizaciones de personas autónomas con ingresos bajos.",
+      "testLevel": "normal",
+      "yesParties": [
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone reducir las cotizaciones de los tramos de autónomos con ingresos más bajos (p. 92).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone una cotización bonificada para autónomos con ingresos bajos en ciertos casos (p. 30).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "retirement-age-65",
+      "topic": "Pensiones",
+      "question": "¿Debería recuperarse la edad ordinaria de jubilación a los 65 años?",
+      "context": "Se cuenta la propuesta explícita de fijar de nuevo en 65 años la edad ordinaria de jubilación.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "bng"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone recuperar la jubilación ordinaria a los 65 años (p. 18).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        }
+      ]
+    },
+    {
+      "id": "salary-ratio-12-to-1",
+      "topic": "Trabajo y economía",
+      "question": "¿Debería limitarse el sueldo más alto de una empresa a doce veces el más bajo?",
+      "context": "Se cuenta la propuesta explícita de fijar un límite a la diferencia entre los salarios de una misma empresa.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone una escala salarial para que el salario fijo más alto no supere doce veces el más bajo (p. 92).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        }
+      ]
+    },
+    {
+      "id": "tax-large-food-chains",
+      "topic": "Impuestos y alimentación",
+      "question": "¿Deberían pagar un impuesto especial las grandes cadenas de supermercados cuando obtienen muchos beneficios?",
+      "context": "Se cuentan propuestas explícitas para gravar los beneficios de las grandes cadenas de distribución alimentaria.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone un impuesto especial sobre los beneficios de las grandes cadenas distribuidoras de alimentos (p. 8).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        }
+      ]
+    },
+    {
+      "id": "public-bank-for-business",
+      "topic": "Economía y empresas",
+      "question": "¿Debería haber un banco público que ayude a financiar pequeñas empresas e innovación?",
+      "context": "Se cuentan propuestas de crear o reconocer bancos públicos que financien empresas e innovación.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone reconocer plenamente la banca pública catalana para facilitar crédito a las pymes (p. 78).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone un banco público de inversión para impulsar proyectos industriales y de innovación (p. 11).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "corporate-tax-15-percent",
+      "topic": "Impuestos y empresas",
+      "question": "¿Debería bajarse el impuesto de sociedades al 15 %?",
+      "context": "Se cuenta la propuesta explícita de reducir el tipo del impuesto que pagan las empresas hasta el 15 %.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Propone reducir progresivamente el impuesto de sociedades hasta el 15 % (p. 77).",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ]
+    },
+    {
+      "id": "public-tv-campaign-coverage",
+      "topic": "Televisión y democracia",
+      "question": "¿Debe la televisión pública informar de las campañas de todas las candidaturas?",
+      "context": "Se cuentan propuestas explícitas para garantizar pluralidad o cobertura informativa a todas las candidaturas en medios públicos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "bng",
+        "pacma"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone aumentar el pluralismo informativo de los medios públicos, especialmente durante las elecciones (p. 28).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Defiende garantizar cobertura informativa en los medios públicos a todos los partidos que concurran (p. 69).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ban-direct-private-media-subsidies",
+      "topic": "Medios de comunicación",
+      "question": "¿Deberían prohibirse las ayudas públicas directas a medios de comunicación privados?",
+      "context": "Se cuenta la propuesta explícita de prohibir subvenciones directas del Estado a medios privados.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Propone prohibir las ayudas públicas directas a medios privados de información (p. 157).",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ]
+    },
+    {
+      "id": "tv-fund-independent-production",
+      "topic": "Televisión y cultura",
+      "question": "¿Deberían las televisiones aportar parte de sus ingresos para apoyar cine y obras audiovisuales independientes?",
+      "context": "Se cuenta la propuesta de destinar parte de los ingresos de las televisiones a producción audiovisual independiente.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone que las televisiones apoyen la producción independiente y destinen parte de sus ingresos a obras en distintas lenguas (p. 173).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "rural-services-within-30-minutes",
+      "topic": "Medio rural",
+      "question": "¿Deberían estar los servicios esenciales a menos de 30 minutos de los pueblos?",
+      "context": "Se cuenta la propuesta explícita de garantizar acceso rural a servicios básicos en un máximo de media hora.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone que los servicios esenciales estén a no más de 30 minutos de la población rural (p. 58).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "universal-inheritance-at-23",
+      "topic": "Juventud y economía",
+      "question": "¿Debería recibir cada persona 20.000 euros públicos al cumplir 23 años?",
+      "context": "Se cuenta la propuesta de una ayuda universal de 20.000 euros al cumplir 23 años para estudiar, empezar a trabajar o independizarse.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone una herencia universal de 20.000 euros al cumplir 23 años (p. 15).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "public-child-raising-benefit",
+      "topic": "Familia y ayudas",
+      "question": "¿Debería haber una ayuda pública para la crianza de hijos e hijas hasta los 18 años?",
+      "context": "Se cuenta la propuesta de una prestación pública por crianza que se mantenga hasta que cada hijo o hija cumpla 18 años.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone una prestación por crianza hasta los 18 años para reducir la pobreza infantil (p. 15).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "independent-public-media",
+      "topic": "Televisión y medios públicos",
+      "question": "¿Deberían los medios públicos ser independientes del gobierno de turno?",
+      "context": "Se cuentan propuestas explícitas de independencia, objetividad o despolitización de los medios públicos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "erc",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Propone garantizar la independencia y objetividad de los medios públicos (p. 71).",
+          "href": "/programas/2023/programa_electoral_pp.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Defiende un servicio audiovisual público independiente de los poderes gubernamentales (p. 124).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Propone librar a RTVE de la politización (p. 157).",
+          "href": "/programas/2023/programa_electoral_vox.pdf"
+        }
+      ]
+    },
+    {
+      "id": "public-free-mental-health",
+      "topic": "Sanidad y salud mental",
+      "question": "¿Debería ofrecerse atención psicológica pública y gratuita a quien la necesite?",
+      "context": "Se cuentan propuestas para ampliar la salud mental dentro de la sanidad pública y facilitar atención gratuita.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone ampliar el presupuesto de salud mental y garantizar atención psicológica pública y gratuita (p. 6).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone atención pública y gratuita de salud mental (p. 166).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf"
+        }
+      ]
+    },
+    {
+      "id": "reduce-profit-care-providers",
+      "topic": "Cuidados y dependencia",
+      "question": "¿Debería reducirse la gestión de empresas privadas con ánimo de lucro en la atención a la dependencia?",
+      "context": "Se cuenta la propuesta explícita de sustituir progresivamente la gestión mercantil por servicios públicos o de economía social.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone acabar progresivamente con conciertos con empresas mercantiles y reforzar la red pública de dependencia (p. 97).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "rural-fast-internet",
+      "topic": "Medio rural y tecnología",
+      "question": "¿Debería garantizarse internet de calidad en todos los pueblos?",
+      "context": "Se cuenta la propuesta explícita de asegurar conexión a internet de calidad en todo el territorio rural.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Incluye conexión a internet de calidad en todo el territorio dentro de su plan de servicios rurales (p. 58).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "official-languages-on-public-tv",
+      "topic": "Televisión y lenguas",
+      "question": "¿Debería aumentar la presencia de las lenguas propias en las televisiones públicas?",
+      "context": "Se cuentan propuestas explícitas para ampliar la presencia de lenguas propias en la programación de medios públicos.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "erc",
+        "pnv",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone extender el uso del euskera en el ámbito audiovisual (p. 15).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone normalizar el gallego en RTVE y ampliar su programación territorial (p. 60).",
+          "href": "/programas/2023/programa_electoral_bng.pdf"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Defiende un servicio audiovisual público que garantice el uso social del catalán (p. 124).",
+          "href": "/programas/2023/programa_electoral_erc.pdf"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Exige más presencia del euskera en plataformas televisivas públicas y privadas (p. 8).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone programación en las lenguas cooficiales en las radiotelevisiones públicas (p. 173).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf"
+        }
+      ]
+    },
+    {
+      "id": "repeal-citizen-security-law",
+      "topic": "Libertades civiles",
+      "question": "¿Debería derogarse por completo la ley de seguridad ciudadana conocida como «ley mordaza»?",
+      "context": "Se cuenta la derogación íntegra. Reformar solo algunos artículos no se interpreta como apoyo ni como rechazo a derogarla por completo.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "bng"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone derogar la Ley Mordaza y sus restricciones a los derechos y libertades (página 12 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=12"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone la derogación íntegra de la Ley Mordaza (página 27 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=27"
+        }
+      ]
+    },
+    {
+      "id": "ban-police-rubber-bullets",
+      "topic": "Seguridad y derechos",
+      "question": "¿Debería prohibirse que la policía utilice pelotas de goma?",
+      "context": "Se cuenta la prohibición expresa de este material antidisturbios, sin equipararla a una prohibición de todos los medios policiales.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "bng"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone prohibir el uso de pelotas de goma (página 12 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=12"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone prohibir las pelotas de goma (página 27 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=27"
+        }
+      ]
+    },
+    {
+      "id": "judges-elect-judicial-council",
+      "topic": "Justicia",
+      "question": "¿Deberían los jueces elegir directamente a los vocales judiciales del Consejo General del Poder Judicial?",
+      "context": "La pregunta se refiere a los vocales de procedencia judicial. Mantener su elección por el Parlamento cuenta como postura contraria.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "vox"
+      ],
+      "noParties": [
+        "psoe",
+        "sumar"
+      ],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Medida 237: propone que jueces y magistrados elijan a los doce vocales de procedencia judicial (página 75 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=75"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 271: propone que los miembros del CGPJ sean designados o propuestos por jueces y magistrados (página 127 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=127"
+        },
+        {
+          "partyId": "psoe",
+          "position": "no",
+          "reference": "Defiende mantener el sistema actual de doble legitimación para elegir el CGPJ (página 248 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=248"
+        },
+        {
+          "partyId": "sumar",
+          "position": "no",
+          "reference": "Mantiene expresamente la elección parlamentaria de los vocales de procedencia judicial (página 129 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=129"
+        }
+      ]
+    },
+    {
+      "id": "abolish-reviewable-life-sentence",
+      "topic": "Justicia penal",
+      "question": "¿Debería eliminarse la prisión permanente revisable?",
+      "context": "Se comparan las propuestas de eliminar o rechazar esta pena con las que proponen ampliar su aplicación.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "bng",
+        "pnv"
+      ],
+      "noParties": [
+        "pp"
+      ],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone derogar la prisión permanente revisable por considerar que contradice la reinserción social (página 27 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=27"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Rechaza expresamente la prisión permanente revisable (página 10 del PDF).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf#page=10"
+        },
+        {
+          "partyId": "pp",
+          "position": "no",
+          "reference": "Medida 273: propone ampliar la prisión permanente revisable al asesinato con ocultación del cadáver (página 81 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=81"
+        }
+      ]
+    },
+    {
+      "id": "mandatory-election-debates",
+      "topic": "Democracia",
+      "question": "¿Debería ser obligatorio celebrar debates electorales entre las candidaturas?",
+      "context": "Se cuenta la propuesta de obligar por ley a celebrar debates electorales; dar cobertura informativa a las candidaturas es una medida distinta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone reformar la legislación electoral para hacer obligatorios los debates electorales (página 247 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=247"
+        }
+      ]
+    },
+    {
+      "id": "single-national-electoral-district",
+      "topic": "Sistema electoral",
+      "question": "¿Deberían repartirse los escaños del Congreso según los votos de todo el país en una circunscripción única?",
+      "context": "Una circunscripción única reúne los votos de todo el país para repartir escaños, en lugar de hacerlo por provincias.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pacma"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone una circunscripción única sin barrera electoral y un reparto de escaños proporcional a los votos (página 69 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=69"
+        }
+      ]
+    },
+    {
+      "id": "access-classified-state-archives",
+      "topic": "Transparencia",
+      "question": "¿Debería reformarse la ley de secretos oficiales para facilitar el acceso a documentos históricos del Estado?",
+      "context": "Se cuentan reformas que reduzcan la opacidad y permitan consultar archivos; actualizar la ley solo por motivos de seguridad no basta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "pnv",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone sustituir la Ley de Secretos Oficiales para garantizar claridad, accesibilidad e información sobre episodios históricos (página 13 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=13"
+        },
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Propone plazos tasados y desclasificación automática de los documentos (página 13 del PDF).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf#page=13"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone reformar la Ley de Secretos Oficiales para garantizar el acceso y consulta de los archivos (página 134 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=134"
+        }
+      ]
+    },
+    {
+      "id": "religion-outside-school-curriculum",
+      "topic": "Educación y laicidad",
+      "question": "¿Debería quedar la enseñanza religiosa confesional fuera del currículo y del horario escolar?",
+      "context": "La pregunta trata de la enseñanza de una confesión religiosa, no del estudio histórico o cultural de las religiones.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone que las enseñanzas confesionales no se integren en el currículo ni en el horario escolar (página 156 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=156"
+        }
+      ]
+    },
+    {
+      "id": "abolish-inheritance-tax",
+      "topic": "Impuestos",
+      "question": "¿Debería eliminarse el impuesto sobre sucesiones y donaciones en toda España?",
+      "context": "Se compara la supresión del impuesto con la propuesta de mantener un mínimo común que las comunidades no puedan rebajar.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [
+        "sumar"
+      ],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 151: propone suprimir el impuesto sobre sucesiones y donaciones en todo el territorio (página 77 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=77"
+        },
+        {
+          "partyId": "sumar",
+          "position": "no",
+          "reference": "Propone recuperar el impuesto y establecer un mínimo común para herencias que superen determinados importes (página 16 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=16"
+        }
+      ]
+    },
+    {
+      "id": "lower-vat-meat-fish",
+      "topic": "Impuestos y alimentación",
+      "question": "¿Debería bajarse temporalmente el IVA de la carne, el pescado y las conservas?",
+      "context": "Se cuenta la rebaja temporal expresa para estos alimentos; otras ayudas a la cesta de la compra no se equiparan a esta medida.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Medida 41: propone reducir temporalmente el IVA de carne, pescado y conservas (página 23 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=23"
+        }
+      ]
+    },
+    {
+      "id": "safe-legal-asylum-routes",
+      "topic": "Migración y asilo",
+      "question": "¿Deberían abrirse vías legales y seguras para que las personas que buscan refugio puedan solicitar asilo?",
+      "context": "Se cuentan corredores seguros y procedimientos de solicitud desde el exterior. Es una cuestión distinta de regularizar a quienes ya residen aquí.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone corredores y vías seguras, junto con medidas que garanticen el asilo y la asistencia (página 11 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=11"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Defiende vías legales y seguras para quienes buscan refugio (página 29 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=29"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone desarrollar el acceso al asilo por vía diplomática y atender solicitudes presentadas desde el exterior (página 104 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=104"
+        }
+      ]
+    },
+    {
+      "id": "close-migrant-detention-centres",
+      "topic": "Migración y derechos",
+      "question": "¿Deberían cerrarse los centros de internamiento de extranjeros?",
+      "context": "Se cuenta el cierre expreso de estos centros. Mejorar sus condiciones o buscar alternativas al internamiento no se interpreta como una propuesta de cierre.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone cerrar los centros de internamiento de extranjeros (página 40 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=40"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone cerrar los centros de internamiento para extranjeros en todo el territorio (página 105 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=105"
+        }
+      ]
+    },
+    {
+      "id": "medical-cannabis",
+      "topic": "Sanidad",
+      "question": "¿Debería regularse el uso del cannabis con fines medicinales?",
+      "context": "Se cuenta el uso terapéutico; esta pregunta no implica legalizar el consumo recreativo.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pnv",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Propone adaptar la normativa para hacer posible el uso medicinal del cannabis (página 46 del PDF).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf#page=46"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone legalizar expresamente el cannabis con fines medicinales (página 92 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=92"
+        }
+      ]
+    },
+    {
+      "id": "end-medicine-copayments",
+      "topic": "Sanidad y medicamentos",
+      "question": "¿Debería avanzarse hacia la eliminación del copago de los medicamentos?",
+      "context": "Se cuentan propuestas de eliminar el copago farmacéutico, aunque planteen hacerlo por fases o empezar por las rentas bajas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "bng",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone modificar la financiación farmacéutica para poner fin al modelo de copagos y repagos (página 36 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=36"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone eliminar progresivamente el copago farmacéutico, priorizando las rentas bajas (página 91 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=91"
+        }
+      ]
+    },
+    {
+      "id": "public-eye-care",
+      "topic": "Sanidad",
+      "question": "¿Debería ampliarse la cobertura pública de la atención a la vista?",
+      "context": "Se cuentan propuestas expresas para ampliar prestaciones oftalmológicas u ópticas. No se presupone que incluyan cualquier tratamiento o todas las gafas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone incluir servicios oftalmológicos básicos en la cartera pública (página 6 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=6"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone ampliar la cartera pública con prestaciones de óptica y optometría (página 36 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=36"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 114: propone incorporar prestaciones de salud oftalmológica a la cartera de servicios (página 58 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=58"
+        }
+      ]
+    },
+    {
+      "id": "ban-surrogacy",
+      "topic": "Derechos y familia",
+      "question": "¿Debería mantenerse la prohibición de la gestación subrogada y reforzarse las medidas contra su comercialización?",
+      "context": "Se cuentan propuestas que rechazan esta práctica y plantean actuar contra el negocio de la gestación subrogada.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Se opone a la gestación subrogada y propone actuar contra las agencias que la promocionan y comercializan (página 159 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=159"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 380: rechaza los vientres de alquiler y la compraventa de seres humanos (página 174 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=174"
+        }
+      ]
+    },
+    {
+      "id": "abolish-prostitution",
+      "topic": "Igualdad y derechos",
+      "question": "¿Deberían impulsarse leyes para abolir la prostitución?",
+      "context": "Se cuenta el objetivo explícito de abolición. No se equipara a perseguir la trata sin pronunciarse sobre la prostitución.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "bng",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone medidas hacia la abolición, persiguiendo a proxenetas y prostituidores sin criminalizar a las mujeres prostituidas (página 23 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=23"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone abolir la prostitución y aprobar una ley contra el proxenetismo en todas sus formas (página 158 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=158"
+        }
+      ]
+    },
+    {
+      "id": "extend-birth-leave",
+      "topic": "Familia y conciliación",
+      "question": "¿Deberían ampliarse los permisos por nacimiento y cuidado de hijos más allá de las 16 semanas?",
+      "context": "Se cuentan ampliaciones del permiso por nacimiento, distintas de los permisos parentales para cuidar a hijos de más edad.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone extender la prestación por nacimiento y cuidado hasta las veinte semanas (página 143 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=143"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone ampliar progresivamente el permiso por maternidad o paternidad hasta los seis meses (página 94 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=94"
+        }
+      ]
+    },
+    {
+      "id": "extra-leave-single-parent-families",
+      "topic": "Familia y conciliación",
+      "question": "¿Deberían tener más semanas de permiso por nacimiento las familias con un solo progenitor?",
+      "context": "Se cuenta una ampliación específica para familias monoparentales o monomarentales, aunque los programas propongan duraciones diferentes.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Medida 162: propone ampliar la parte voluntaria de los permisos de las familias monoparentales (página 53 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=53"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone ampliar hasta treinta y dos semanas la baja por maternidad de las familias monomarentales (página 9 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=9"
+        }
+      ]
+    },
+    {
+      "id": "universal-free-school-meals",
+      "topic": "Educación y alimentación",
+      "question": "¿Debería ser gratuito el comedor escolar para todo el alumnado de la enseñanza obligatoria?",
+      "context": "Se cuenta la gratuidad universal. Las becas de comedor reservadas a familias con rentas bajas no equivalen a esta propuesta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone implantar progresivamente el derecho universal a comedores gratuitos en la enseñanza obligatoria (página 94 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=94"
+        }
+      ]
+    },
+    {
+      "id": "free-school-textbooks",
+      "topic": "Educación",
+      "question": "¿Deberían ser gratuitos los libros de texto escolares?",
+      "context": "Se cuentan programas de gratuidad o acceso libre a los libros de texto, aunque su aplicación dependa de acuerdos con las comunidades autónomas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "bng",
+        "pacma",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Defiende una red pública con libros de texto y material escolar gratuitos (página 32 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=32"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone gratuidad y libre acceso a libros de texto con licencias de distribución y copia libre (página 54 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=54"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone impulsar un programa de gratuidad de libros de texto en colaboración con las comunidades autónomas (página 109 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=109"
+        }
+      ]
+    },
+    {
+      "id": "lower-public-university-fees",
+      "topic": "Universidad",
+      "question": "¿Deberían reducirse las tasas de las universidades públicas?",
+      "context": "Se cuentan reducciones expresas de los precios públicos, incluyendo propuestas que avancen hacia la gratuidad.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone reducir las tasas universitarias para asegurar la igualdad de oportunidades (página 116 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=116"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone reducir los precios públicos y avanzar progresivamente hacia la gratuidad (página 160 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=160"
+        }
+      ]
+    },
+    {
+      "id": "expand-dual-vocational-training",
+      "topic": "Educación y empleo",
+      "question": "¿Debería ampliarse la FP dual, que combina estudios y formación en una empresa?",
+      "context": "Se cuenta el impulso expreso de la formación profesional dual; no basta con apoyar la FP en general.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pnv",
+        "pp",
+        "psoe",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Propone extender e intensificar la formación profesional dual a todos los niveles (página 30 del PDF).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf#page=30"
+        },
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Medida 153: propone avanzar en la dualización real de la FP con participación de las empresas (página 51 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=51"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone una alianza por la FP dual que incluya pymes y zonas en riesgo de despoblación (página 113 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=113"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 60: propone impulsar la formación profesional dual (página 35 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=35"
+        }
+      ]
+    },
+    {
+      "id": "permanent-social-housing-protection",
+      "topic": "Vivienda",
+      "question": "¿Deberían las viviendas protegidas conservar su uso social de forma permanente?",
+      "context": "Se cuenta impedir que una vivienda protegida pierda su protección y pase al mercado libre. Es distinto de construir más vivienda pública.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone impedir la descalificación y privatización de las viviendas de uso social (página 223 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=223"
+        }
+      ]
+    },
+    {
+      "id": "mortgage-interest-relief",
+      "topic": "Vivienda y economía",
+      "question": "¿Deberían aprobarse medidas de apoyo para quienes no pueden asumir la subida de su hipoteca?",
+      "context": "Se cuentan ayudas, límites temporales de cuota y deducciones para afrontar la subida de intereses. Las condiciones y las personas beneficiarias varían entre programas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "psoe",
+        "sumar",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone limitar temporalmente el aumento de cuotas para hipotecas inferiores a 250.000 euros (página 4 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=4"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone ampliar el acceso a medidas de apoyo, como la ampliación del crédito y la congelación temporal de cuota (página 32 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=32"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone un bono de emergencia de 1.000 euros para determinados hogares con hipoteca a tipo variable (página 77 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=77"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Propone recuperar la deducción de los intereses de la hipoteca de vivienda habitual para compensar la subida de tipos (página 75 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=75"
+        }
+      ]
+    },
+    {
+      "id": "ban-basic-utility-cuts",
+      "topic": "Protección social y energía",
+      "question": "¿Debería prohibirse cortar los suministros básicos a los hogares en situación de vulnerabilidad?",
+      "context": "Se cuenta impedir cortes de suministros esenciales por vulnerabilidad económica. Una tarifa social sin esa garantía no basta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone hacer permanente la prohibición de cortes de suministros básicos a familias vulnerables (página 7 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=7"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone impedir cortes de agua, energía y calefacción a familias y personas vulnerables (página 20 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=20"
+        }
+      ]
+    },
+    {
+      "id": "simplify-minimum-income-access",
+      "topic": "Protección social",
+      "question": "¿Debería facilitarse el acceso al ingreso mínimo vital para que llegue a más personas que lo necesitan?",
+      "context": "Se cuentan mejoras expresas de acceso, requisitos o tramitación del ingreso mínimo vital; no se presupone una misma cuantía.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "pp"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone ampliar el alcance del IMV, elevar los límites de renta y simplificar los trámites (página 7 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=7"
+        },
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Propone mejorar el acceso al ingreso mínimo vital y su efectividad como herramienta de inserción laboral (página 18 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=18"
+        }
+      ]
+    },
+    {
+      "id": "limit-flights-with-rail-alternative",
+      "topic": "Transporte y clima",
+      "question": "¿Deberían limitarse los vuelos cuando exista una alternativa adecuada en tren?",
+      "context": "Se cuentan limitaciones a vuelos sustituibles por ferrocarril. Los programas pueden fijar distintos requisitos de duración y conectividad.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone limitar vuelos cuando exista una alternativa en tren (página 99 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=99"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone eliminar vuelos domésticos con alternativa ferroviaria adecuada de menos de tres horas (página 83 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=83"
+        }
+      ]
+    },
+    {
+      "id": "deposit-return-packaging",
+      "topic": "Residuos y consumo",
+      "question": "¿Debería implantarse un sistema que devuelva dinero al retornar los envases usados?",
+      "context": "Se cuenta el sistema de depósito, devolución y retorno de envases; es una medida distinta de la recogida selectiva habitual.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone implantar sistemas de retorno de envases para incentivar la reutilización y el reciclaje (página 39 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=39"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone adelantar la implantación del sistema de devolución, depósito y retorno (página 54 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=54"
+        }
+      ]
+    },
+    {
+      "id": "reduce-food-waste",
+      "topic": "Alimentación y medioambiente",
+      "question": "¿Deberían reforzarse las medidas para reducir el desperdicio de alimentos?",
+      "context": "Se cuentan medidas expresas contra el desperdicio, ya sean legislativas o de mejora de la cadena alimentaria.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pnv",
+        "pp",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Propone digitalizar e innovar en la cadena alimentaria para reducir el desperdicio (página 42 del PDF).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf#page=42"
+        },
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Propone impulsar la economía circular, especialmente en la reducción del desperdicio alimentario (página 28 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=28"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone retomar la ley contra el desperdicio alimentario (página 68 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=68"
+        }
+      ]
+    },
+    {
+      "id": "combat-planned-obsolescence",
+      "topic": "Consumo y medioambiente",
+      "question": "¿Debería obligarse a los fabricantes a evitar que sus productos se vuelvan inútiles antes de tiempo?",
+      "context": "Se cuentan obligaciones contra la obsolescencia programada y medidas legales para aumentar la durabilidad; no se exige que todos los programas planteen la misma sanción.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc",
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone poner freno a la obsolescencia prematura de los productos de consumo (página 100 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=100"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone exigir garantías más largas y piezas sustituibles para combatir la obsolescencia programada (página 39 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=39"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone una ley que sancione el acortamiento fraudulento de la vida útil de los productos (página 54 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=54"
+        }
+      ]
+    },
+    {
+      "id": "right-to-repair-products",
+      "topic": "Derechos de consumo",
+      "question": "¿Debería garantizarse el derecho a reparar aparatos con acceso a piezas de recambio?",
+      "context": "Se cuentan medidas para facilitar reparaciones y recambios. La pregunta trata de reparar productos que fallan, no de evitar su obsolescencia desde el diseño.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc",
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone garantizar el derecho a la reparación de las personas consumidoras (página 100 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=100"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone exigir piezas sustituibles y permitir acudir a cualquier taller de reparación (página 39 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=39"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone garantizar el derecho a reparar y combatir la falta de piezas de recambio (página 54 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=54"
+        }
+      ]
+    },
+    {
+      "id": "ban-fireworks",
+      "topic": "Medioambiente y convivencia",
+      "question": "¿Deberían prohibirse los petardos y los fuegos artificiales?",
+      "context": "Se cuenta una prohibición expresa de los artificios pirotécnicos, no solo limitar su uso en espacios naturales o en épocas de riesgo de incendio.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pacma"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone prohibir petardos, fuegos artificiales, cohetes y sus simulaciones (página 46 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=46"
+        }
+      ]
+    },
+    {
+      "id": "alternatives-animal-experiments",
+      "topic": "Ciencia y protección animal",
+      "question": "¿Debería financiarse la investigación de alternativas a los experimentos con animales?",
+      "context": "Se cuenta la financiación expresa de métodos alternativos. No se equipara a prohibir inmediatamente toda la experimentación animal.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pacma"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone aumentar la financiación de métodos alternativos y agilizar su evaluación y autorización (página 29 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "id": "ban-pet-sales",
+      "topic": "Protección animal",
+      "question": "¿Debería prohibirse la compraventa de animales de compañía?",
+      "context": "Se cuenta la prohibición general de la compraventa; prohibir solo la venta de determinadas especies en tiendas no basta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pacma"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone prohibir la compraventa de animales de compañía (página 10 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=10"
+        }
+      ]
+    },
+    {
+      "id": "hunting-dogs-animal-welfare-law",
+      "topic": "Protección animal",
+      "question": "¿Deberían estar los perros de caza incluidos en la ley de protección animal?",
+      "context": "Se cuenta incluir a los perros de caza en la protección legal; no implica prohibir la caza.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc",
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone incluir perros de caza, pastoreo, rescate y de los cuerpos de seguridad en la ley de protección animal (página 105 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=105"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone una ley que proteja a todos los animales, sin excluir a los perros de caza (página 10 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=10"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone incluir a los animales de compañía de trabajo en la Ley de Protección, Derechos y Bienestar de los Animales (página 56 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=56"
+        }
+      ]
+    },
+    {
+      "id": "lower-veterinary-vat",
+      "topic": "Protección animal e impuestos",
+      "question": "¿Debería reducirse el IVA de los servicios veterinarios?",
+      "context": "Se cuentan rebajas expresas del IVA veterinario, sin presuponer que todos los programas proponen el mismo tipo final.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc",
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone reducir el IVA de los servicios veterinarios del 21% al 10% (página 106 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=106"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone reducir el IVA veterinario (página 29 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=29"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone reconocer las clínicas veterinarias como centros sanitarios y reducir su IVA al 10% (página 56 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=56"
+        }
+      ]
+    },
+    {
+      "id": "sahrawi-self-determination",
+      "topic": "Política exterior",
+      "question": "¿Debería España apoyar el derecho del pueblo saharaui a decidir su futuro?",
+      "context": "Se cuenta el apoyo explícito a la libre determinación. Pedir una solución acordada en Naciones Unidas sin mencionar ese derecho no se clasifica como apoyo ni como rechazo.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pnv",
+        "bng",
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Defiende el derecho a la autodeterminación del pueblo saharaui y rechaza el cambio de posición del Gobierno español (página 11 del PDF).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf#page=11"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone impulsar un referéndum de autodeterminación del Sáhara Occidental (página 67 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=67"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Defiende el principio de autodeterminación de los pueblos en el conflicto del Sáhara Occidental (página 29 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=29"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone apoyar plenamente la libre determinación del pueblo del Sáhara Occidental (página 141 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=141"
+        }
+      ]
+    },
+    {
+      "id": "development-aid-target",
+      "topic": "Cooperación internacional",
+      "question": "¿Debería aumentarse la ayuda al desarrollo hasta alcanzar el objetivo del 0,7 %?",
+      "context": "Se cuenta el compromiso expreso con el objetivo del 0,7% de ayuda al desarrollo. El PSOE usa la renta nacional bruta, Sumar el producto nacional bruto y ERC menciona el PIB.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "psoe",
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone avanzar hasta el 0,7% de la renta nacional bruta en ayuda oficial al desarrollo en 2030 (página 261 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=261"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone dedicar al menos el 0,7% del PIB a cooperación y alcanzar ese objetivo en los presupuestos estatales (página 29 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=29"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone alcanzar el 0,7% del producto nacional bruto en ayuda oficial al desarrollo en 2030 (página 148 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=148"
+        }
+      ]
+    },
+    {
+      "id": "in-person-public-administration",
+      "topic": "Servicios públicos",
+      "question": "¿Debería garantizarse que los trámites con la Administración también puedan hacerse presencialmente?",
+      "context": "Se cuenta mantener o recuperar la atención presencial, de modo que el acceso a los servicios no dependa exclusivamente de internet.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "ehbildu",
+        "bng",
+        "psoe",
+        "sumar",
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "ehbildu",
+          "position": "yes",
+          "reference": "Propone garantizar información, acceso y presencialidad para todos los sectores de la población (página 7 del PDF).",
+          "href": "/programas/2023/programa_electoral_bildu.pdf#page=7"
+        },
+        {
+          "partyId": "bng",
+          "position": "yes",
+          "reference": "Propone garantizar atención presencial sin cita previa en todas las oficinas de la Administración (página 19 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=19"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone atención presencial sin cita previa obligatoria y con horarios flexibles (página 240 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=240"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone recuperar la atención presencial plena en la Administración pública (página 18 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=18"
+        },
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 7: propone exigir atención presencial sin cita previa en todas las administraciones (página 9 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=9"
+        }
+      ]
+    },
+    {
+      "id": "end-union-employer-subsidies",
+      "topic": "Trabajo y gasto público",
+      "question": "¿Deberían eliminarse todas las subvenciones públicas a sindicatos y patronales?",
+      "context": "Se cuenta la supresión general de estas subvenciones. Exigir transparencia o fiscalizar su uso no equivale a eliminarlas.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 43: propone acabar con todas las subvenciones públicas a sindicatos y patronales (página 26 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=26"
+        }
+      ]
+    },
+    {
+      "id": "school-vouchers",
+      "topic": "Educación",
+      "question": "¿Debería haber un cheque escolar para que las familias elijan el centro educativo?",
+      "context": "Se cuenta financiar la elección de centro mediante un cheque escolar. Defender la libertad de elección sin proponer este instrumento no basta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 52: propone un cheque escolar para elegir libremente el modelo educativo (página 33 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=33"
+        }
+      ]
+    },
+    {
+      "id": "smaller-school-classes",
+      "topic": "Educación",
+      "question": "¿Debería reducirse el número de alumnos por aula?",
+      "context": "Se cuentan reducciones expresas del número de estudiantes por aula o por docente para mejorar la atención educativa.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone reducir la ratio de alumnado por profesor en todo el tramo educativo (página 55 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=55"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone bajar las ratios en las aulas y aumentar el número de docentes y especialistas (página 157 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=157"
+        }
+      ]
+    },
+    {
+      "id": "parental-consent-sex-education",
+      "topic": "Educación y familia",
+      "question": "¿Deberían los centros pedir autorización a los padres antes de impartir contenidos afectivo-sexuales?",
+      "context": "Se cuenta exigir conocimiento previo y aceptación de los padres. Proponer educación sexual sin abordar esa autorización no se toma como rechazo explícito.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 51: propone garantizar conocimiento previo y aceptación de los padres de los contenidos afectivo-sexuales en el aula (página 33 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=33"
+        }
+      ]
+    },
+    {
+      "id": "centralize-health-powers",
+      "topic": "Sanidad y organización territorial",
+      "question": "¿Debería el Estado recuperar las competencias sanitarias de las comunidades autónomas?",
+      "context": "Se compara la recentralización de la sanidad con propuestas que defienden ampliar o preservar la capacidad de gestión sanitaria autonómica.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [
+        "bng",
+        "pnv"
+      ],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 101: propone recuperar las competencias sanitarias transferidas a las regiones (página 56 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=56"
+        },
+        {
+          "partyId": "bng",
+          "position": "no",
+          "reference": "Defiende que Galicia asuma plena capacidad para regir su sistema sanitario sin interferencias (página 35 del PDF).",
+          "href": "/programas/2023/programa_electoral_bng.pdf#page=35"
+        },
+        {
+          "partyId": "pnv",
+          "position": "no",
+          "reference": "Reclama transferir a Euskadi las competencias sanitarias todavía pendientes (página 46 del PDF).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf#page=46"
+        }
+      ]
+    },
+    {
+      "id": "ban-corruption-pardons",
+      "topic": "Justicia y corrupción",
+      "question": "¿Debería prohibirse indultar a quienes hayan cometido delitos de corrupción política?",
+      "context": "Se cuenta la prohibición expresa de estos indultos; exigir más explicaciones al concederlos es una medida distinta.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "vox"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "vox",
+          "position": "yes",
+          "reference": "Medida 269: propone prohibir los indultos para delitos relacionados con la corrupción política (página 127 del PDF).",
+          "href": "/programas/2023/programa_electoral_vox.pdf#page=127"
+        }
+      ]
+    },
+    {
+      "id": "public-mortgage-guarantees-young",
+      "topic": "Vivienda y juventud",
+      "question": "¿Debería el Estado avalar parte de la hipoteca para facilitar que los jóvenes compren vivienda?",
+      "context": "Se cuentan avales públicos para facilitar el acceso de jóvenes a la compra de vivienda. No son ayudas directas al alquiler ni a pagar cuotas hipotecarias.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Medida 91: propone avales para jóvenes de hasta 35 años que faciliten créditos de hasta el 95% del precio de la vivienda (página 34 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=34"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone avales del ICO para el 20% de la hipoteca de la primera vivienda habitual de jóvenes menores de 35 años (página 130 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=130"
+        }
+      ]
+    },
+    {
+      "id": "tax-sugary-drinks",
+      "topic": "Impuestos y salud",
+      "question": "¿Deberían pagar más impuestos las bebidas azucaradas para desincentivar su consumo?",
+      "context": "Se cuentan impuestos específicos o penalizaciones fiscales a las bebidas azucaradas, no solo campañas de alimentación saludable.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone usar la fiscalidad para penalizar productos que afectan a la salud, como las bebidas azucaradas (página 61 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=61"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone implantar un impuesto a las bebidas azucaradas y alimentos ultraprocesados no saludables (página 17 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=17"
+        }
+      ]
+    },
+    {
+      "id": "speed-up-foreign-degree-recognition",
+      "topic": "Educación y migración",
+      "question": "¿Deberían agilizarse los trámites para reconocer los títulos obtenidos en otros países?",
+      "context": "Se cuentan medidas concretas para reducir los tiempos y la burocracia de homologación, manteniendo los procedimientos de evaluación o reconocimiento.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pnv",
+        "pp",
+        "psoe",
+        "erc",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pnv",
+          "position": "yes",
+          "reference": "Propone transferir y agilizar la homologación de títulos extranjeros universitarios (página 49 del PDF).",
+          "href": "/programas/2023/programa_electoral_pnv.pdf#page=49"
+        },
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Medida 7: propone acelerar el reconocimiento de títulos profesionales habilitantes (página 16 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=16"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone agilizar y reducir la burocracia del reconocimiento y certificación de títulos (página 117 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=117"
+        },
+        {
+          "partyId": "erc",
+          "position": "yes",
+          "reference": "Propone facilitar la homologación de títulos superiores reduciendo documentación, plazos y tasas (página 44 del PDF).",
+          "href": "/programas/2023/programa_electoral_erc.pdf#page=44"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone reformar, simplificar y digitalizar la homologación de títulos y experiencia profesional (página 104 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=104"
+        }
+      ]
+    },
+    {
+      "id": "national-suicide-prevention",
+      "topic": "Sanidad y prevención",
+      "question": "¿Debería impulsarse un plan nacional específico para prevenir el suicidio?",
+      "context": "Se cuentan planes o estrategias específicos de ámbito nacional; algunos programas se centran en la población joven.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "pacma",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Propone un plan nacional de prevención del suicidio con participación de sanidad, educación y servicios sociales (página 49 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=49"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone una estrategia nacional contra el suicidio juvenil (página 131 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=131"
+        },
+        {
+          "partyId": "pacma",
+          "position": "yes",
+          "reference": "Propone un plan nacional de prevención e intervención con detección precoz, formación y continuidad asistencial (página 53 del PDF).",
+          "href": "/programas/2023/programa_electoral_pacma.pdf#page=53"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone un plan nacional contra el suicidio que aborde la asistencia y las condiciones de vida (página 91 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=91"
+        }
+      ]
+    },
+    {
+      "id": "strengthen-free-legal-aid",
+      "topic": "Justicia y protección social",
+      "question": "¿Debería reforzarse la asistencia jurídica gratuita para quienes no pueden pagarla?",
+      "context": "Se cuentan mejoras de recursos o cobertura de la justicia gratuita y el turno de oficio, aunque cada programa tenga un alcance distinto.",
+      "testLevel": "extenso",
+      "yesParties": [
+        "pp",
+        "psoe",
+        "sumar"
+      ],
+      "noParties": [],
+      "evidence": [
+        {
+          "partyId": "pp",
+          "position": "yes",
+          "reference": "Propone extender la regulación de la asistencia jurídica gratuita y remunerar las actuaciones de los profesionales de oficio (página 76 del PDF).",
+          "href": "/programas/2023/programa_electoral_pp.pdf#page=76"
+        },
+        {
+          "partyId": "psoe",
+          "position": "yes",
+          "reference": "Propone intensificar la asistencia jurídica gratuita y actualizar los baremos del turno de oficio (página 248 del PDF).",
+          "href": "/programas/2023/programa_electoral_psoe.pdf#page=248"
+        },
+        {
+          "partyId": "sumar",
+          "position": "yes",
+          "reference": "Propone aumentar los recursos y el umbral de rentas para acceder a la justicia gratuita (página 126 del PDF).",
+          "href": "/programas/2023/programa_electoral_sumar.pdf#page=126"
+        }
+      ]
+    }
+  ]
+}
