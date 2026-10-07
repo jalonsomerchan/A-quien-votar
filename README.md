@@ -35,3 +35,16 @@ npm run build
 ```
 
 La validación comprueba el mínimo de 100 preguntas por edición, los identificadores y enunciados duplicados, los tres niveles del test, la cobertura de todos los partidos en cada modalidad, la correspondencia entre posturas y evidencias, y la existencia de los programas y símbolos enlazados. La fidelidad de cada resumen al programa requiere revisión editorial.
+
+## Desplegar en GitHub Pages
+
+El workflow `.github/workflows/deploy.yml` compila la app y la publica en GitHub Pages cuando hay cambios en `main` o al ejecutarlo manualmente desde la pestaña Actions. El dominio personalizado previsto es `aquienvotar.alon.one`.
+
+Para activar el despliegue:
+
+1. En el repositorio, abre **Settings → Pages** y selecciona **GitHub Actions** como fuente de publicación.
+2. En esa misma página, configura `aquienvotar.alon.one` como dominio personalizado.
+3. En el proveedor DNS de `alon.one`, crea un registro `CNAME` para `aquienvotar` que apunte a `jalonsomerchan.github.io`.
+4. Cuando GitHub haya emitido el certificado, activa **Enforce HTTPS** en Settings → Pages.
+
+El archivo `public/CNAME` conserva el dominio junto al contenido estático. GitHub requiere que el dominio también se configure en Settings → Pages al publicar con un workflow personalizado.
